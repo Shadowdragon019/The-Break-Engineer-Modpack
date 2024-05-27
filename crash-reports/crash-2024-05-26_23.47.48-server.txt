@@ -1,0 +1,197 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Don't do that.
+
+Time: 2024-05-26 23:47:48
+Description: Exception in server tick loop
+
+java.lang.IllegalAccessError: class j_util_function_Consumer_1 tried to access method 'boolean scripts.event.blockPosesAreEqual(net.minecraft.core.BlockPos, net.minecraft.core.BlockPos)' (j_util_function_Consumer_1 and scripts.event are in unnamed module of loader org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit$ScriptClassLoader @3a8d2a68)
+	at j_util_function_Consumer_1.accept(event.zs:31) ~[?:?] {}
+	at j_util_function_Consumer_1.accept(event.zs:9) ~[?:?] {}
+	at com.blamejared.crafttweaker.api.event.bus.CancelingEventBus$CancelingEventDispatcher.dispatch(CancelingEventBus.java:16) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.ArrayBackedDispatcher$CatchingDispatcher.dispatch(ArrayBackedDispatcher.java:41) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.ArrayBackedDispatcher.dispatch(ArrayBackedDispatcher.java:99) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.PhasedEventBus.lambda$dispatch$2(PhasedEventBus.java:120) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.PhasedEventBus.queryHandlers(PhasedEventBus.java:142) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.PhasedEventBus.dispatch(PhasedEventBus.java:118) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.PhasedEventBus.postCatching(PhasedEventBus.java:98) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.PhasedEventBus.post(PhasedEventBus.java:86) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at com.blamejared.crafttweaker.api.event.bus.ForgeEventBusWire.lambda$registerBus$1(ForgeEventBusWire.java:76) ~[CraftTweaker-forge-1.20.1-14.0.38.jar%23180!/:14.0.38] {re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%2375!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%2375!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2375!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2375!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onRightClickBlock(ForgeHooks.java:801) ~[forge-1.20.1-47.2.32-universal.jar%23203!/:?] {re:mixin,re:classloading,pl:mixin:APP:connectormod.mixins.json:ForgeHooksMixin from mod connectormod,pl:mixin:APP:connectormod.mixins.json:item.ForgeHooksMixin from mod connectormod,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:323) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-events-interaction-v0.mixins.json:ServerPlayerInteractionManagerMixin from mod fabric_events_interaction_v0,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-networking-api-v1.mixins.json:ServerPlayNetworkHandlerMixin from mod fabric_networking_api_v1,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.forge_vehicle_packets.ServerGamePacketListenerImplMixin from mod modernfix,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric_networking_api_v1,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:connector_pre_launch:A,re:computing_frames,pl:connector_pre_launch:A,re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23198!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.7.6-200.fsync.fc39.x86_64
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 408353856 bytes (389 MiB) / 1174405120 bytes (1120 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 3700X 8-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: GA106 [GeForce RTX 3060 Lite Hash Rate]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x2504
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 59352.88
+	Virtual memory used (MB): 14933.43
+	Swap memory total (MB): 43365.54
+	Swap memory used (MB): 689.46
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Xss1M
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Sammy_any_all_'/1, l='ServerLevel[New World]', x=47.15, y=-56.87, z=6.07]]
+	Data Packs: vanilla, mod:fabric_dimensions_v1, mod:fabric_transfer_api_v1, mod:saturn (incompatible), mod:fabric_renderer_api_v1, mod:fabric_item_api_v1, mod:fabric_model_loading_api_v1, mod:com_github_llamalad7_mixinextras, mod:fabric_rendering_fluids_v1, mod:fabric_screen_handler_api_v1, mod:fabric_models_v0, mod:fabric_resource_loader_v0, mod:fabric_rendering_v1, mod:fabric_renderer_indigo, mod:fabric_convention_tags_v1, mod:modernfix (incompatible), mod:fabric_command_api_v1, mod:fabric_mining_level_api_v1, mod:fabric_block_view_api_v2, mod:fabric_command_api_v2, mod:fabric_data_attachment_api_v1, mod:mixinextras (incompatible), mod:fabric_screen_api_v1, mod:fpsreducer, mod:fabric_particles_v1, mod:cloth_config (incompatible), mod:forge, mod:fabric_api, mod:fabric_content_registries_v0, mod:embeddium, mod:fabric_transitive_access_wideners_v1, mod:fabric_game_rule_api_v1, mod:fabric_api_base, mod:fabric_api_lookup_api_v1, mod:lazurite, mod:fabric_blockrenderlayer_v1, mod:culllessleaves (incompatible), mod:cloudsettings (incompatible), mod:fabric_block_api_v1, mod:smoothboot, mod:fabric_resource_conditions_api_v1, mod:fabric_item_group_api_v1, mod:spruceui, mod:entityculling, mod:canary, mod:fastquit, mod:connectormod, mod:fabric_biome_api_v1, mod:fabric_entity_events_v1, mod:fabric_registry_sync_v0, mod:immediatelyfast (incompatible), mod:breaking_tools_drops_items, mod:advanced_runtime_resource_pack, mod:fabric_recipe_api_v1, mod:ferritecore (incompatible), mod:fabric_loot_api_v2, mod:fabric_object_builder_api_v1, mod:enhancedblockentities, mod:fabric_rendering_data_attachment_v1, mod:fabric_networking_api_v1, mod:fabric_sound_api_v1, mod:fabric_message_api_v1, mod:fabric_lifecycle_events_v1, mod:fabric_data_generation_api_v1, mod:fabric_events_interaction_v0, mod:fabric_key_binding_api_v1, mod:fabric_client_tags_api_v1, fabric, mod:worldeditcui (incompatible), mod:worldedit (incompatible), mod:rhino (incompatible), mod:architectury (incompatible), mod:kubejs (incompatible), mod:crafttweaker (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: 1.20.1
+	Sinytra Connector: 1.0.0-beta.41+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| fastquit-3.0.0+1.20+$MixinExtras-0.1.1_mapped_srg_ | MixinExtras                    | com_github_llamalad7_mixinextr | 0.1.1                |
+		| enhancedblockentities-0.9+1.20$spruceui-5.0.0+1.20 | SpruceUI                       | spruceui                       | 5.0.01.20            |
+		| fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar         | FastQuit                       | fastquit                       | 3.0.01.20            |
+		| enhancedblockentities-0.9+1.20$arrp-0.6.7_mapped_s | Runtime Resource Pack          | advanced_runtime_resource_pack | 0.6.7                |
+		| enhancedblockentities-0.9+1.20_mapped_srg_1.20.1.j | Enhanced Block Entities        | enhancedblockentities          | 0.91.20              |
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.32.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.32.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.32.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.32.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.32.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		fabric-dimensions-v1-2.1.54+8005d10d77.jar        |Fabric Dimensions API (v1)    |fabric_dimensions_v1          |2.1.54+8005d10d77   |DONE      |Manifest: NOSIGNATURE
+		fabric-transfer-api-v1-3.3.4+b00938ec77.jar       |Fabric Transfer API (v1)      |fabric_transfer_api_v1        |3.3.4+b00938ec77    |DONE      |Manifest: NOSIGNATURE
+		saturn-mc1.20.1-0.1.3.jar                         |Saturn                        |saturn                        |0.1.3               |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.2-build.18.jar                 |Rhino                         |rhino                         |2001.2.2-build.18   |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.2.1+1d29b44577.jar       |Fabric Renderer API (v1)      |fabric_renderer_api_v1        |3.2.1+1d29b44577    |DONE      |Manifest: NOSIGNATURE
+		fabric-item-api-v1-2.1.28+6ba6353877.jar          |Fabric Item API (v1)          |fabric_item_api_v1            |2.1.28+6ba6353877   |DONE      |Manifest: NOSIGNATURE
+		fabric-model-loading-api-v1-1.0.3+6274ab9d77.jar  |Fabric Model Loading API (v1) |fabric_model_loading_api_v1   |1.0.3+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		fastquit-3.0.0+1.20+$MixinExtras-0.1.1_mapped_srg_|MixinExtras                   |com_github_llamalad7_mixinextr|0.1.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-fluids-v1-3.0.28+4ac5e37a77.jar  |Fabric Rendering Fluids (v1)  |fabric_rendering_fluids_v1    |3.0.28+4ac5e37a77   |DONE      |Manifest: NOSIGNATURE
+		fabric-screen-handler-api-v1-1.3.30+561530ec77.jar|Fabric Screen Handler API (v1)|fabric_screen_handler_api_v1  |1.3.30+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-models-v0-0.4.2+7c3892a477.jar             |Fabric Models (v0)            |fabric_models_v0              |0.4.2+7c3892a477    |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-loader-v0-0.11.10+bcd08ed377.jar  |Fabric Resource Loader (v0)   |fabric_resource_loader_v0     |0.11.10+bcd08ed377  |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-v1-3.0.8+1c0ea72177.jar          |Fabric Rendering (v1)         |fabric_rendering_v1           |3.0.8+1c0ea72177    |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-indigo-1.5.1+67f9824077.jar       |Fabric Renderer - Indigo      |fabric_renderer_indigo        |1.5.1+67f9824077    |DONE      |Manifest: NOSIGNATURE
+		fabric-convention-tags-v1-1.5.5+fa3d1c0177.jar    |Fabric Convention Tags        |fabric_convention_tags_v1     |1.5.5+fa3d1c0177    |DONE      |Manifest: NOSIGNATURE
+		modernfix-forge-5.15.0+mc1.20.1.jar               |ModernFix                     |modernfix                     |5.15.0+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v1-1.2.34+f71b366f77.jar       |Fabric Command API (v1)       |fabric_command_api_v1         |1.2.34+f71b366f77   |DONE      |Manifest: NOSIGNATURE
+		fabric-mining-level-api-v1-2.1.50+561530ec77.jar  |Fabric Mining Level API (v1)  |fabric_mining_level_api_v1    |2.1.50+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.1+0767707077.jar     |Fabric BlockView API (v2)     |fabric_block_view_api_v2      |1.0.1+0767707077    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v2-2.2.13+561530ec77.jar       |Fabric Command API (v2)       |fabric_command_api_v2         |2.2.13+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-data-attachment-api-v1-1.0.0+30ef839e77.jar|Fabric Data Attachment API (v1|fabric_data_attachment_api_v1 |1.0.0+30ef839e77    |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.5.jar                       |MixinExtras                   |mixinextras                   |0.3.5               |DONE      |Manifest: NOSIGNATURE
+		WorldEditCUI-1.20+01.jar                          |WorldEditCUI                  |worldeditcui                  |1.20+01             |DONE      |Manifest: NOSIGNATURE
+		fabric-screen-api-v1-2.0.8+45a670a577.jar         |Fabric Screen API (v1)        |fabric_screen_api_v1          |2.0.8+45a670a577    |DONE      |Manifest: NOSIGNATURE
+		FpsReducer2-forge-1.20-2.5.jar                    |FPS Reducer                   |fpsreducer                    |1.20-2.5            |DONE      |Manifest: NOSIGNATURE
+		CraftTweaker-forge-1.20.1-14.0.38.jar             |CraftTweaker                  |crafttweaker                  |14.0.38             |DONE      |Manifest: NOSIGNATURE
+		fabric-particles-v1-1.1.2+78e1ecb877.jar          |Fabric Particles (v1)         |fabric_particles_v1           |1.1.2+78e1ecb877    |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.2.32-universal.jar                |Forge                         |forge                         |47.2.32             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		fabric-api-0.92.0+1.11.5+1.20.1.jar               |Forgified Fabric API          |fabric_api                    |0.92.0+1.11.5+1.20.1|DONE      |Manifest: NOSIGNATURE
+		fabric-content-registries-v0-4.0.11+a670df1e77.jar|Fabric Content Registries (v0)|fabric_content_registries_v0  |4.0.11+a670df1e77   |DONE      |Manifest: NOSIGNATURE
+		embeddium-0.3.12+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.12+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		fabric-transitive-access-wideners-v1-4.3.1+1880499|Fabric Transitive Access Widen|fabric_transitive_access_widen|4.3.1+1880499877    |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		fabric-game-rule-api-v1-1.0.40+683d4da877.jar     |Fabric Game Rule API (v1)     |fabric_game_rule_api_v1       |1.0.40+683d4da877   |DONE      |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.31+ef105b4977.jar             |Fabric API Base               |fabric_api_base               |0.4.31+ef105b4977   |DONE      |Manifest: NOSIGNATURE
+		fabric-api-lookup-api-v1-1.6.36+67f9824077.jar    |Fabric API Lookup API (v1)    |fabric_api_lookup_api_v1      |1.6.36+67f9824077   |DONE      |Manifest: NOSIGNATURE
+		lazurite-1.0.4+mc1.20.1.jar                       |Lazurite                      |lazurite                      |1.0.4+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		fabric-blockrenderlayer-v1-1.1.41+1d0da21e77.jar  |Fabric BlockRenderLayer Regist|fabric_blockrenderlayer_v1    |1.1.41+1d0da21e77   |DONE      |Manifest: NOSIGNATURE
+		CullLessLeaves-Reforged-1.20.1-1.0.5.jar          |Cull Less Leaves Reforged     |culllessleaves                |1.20.1-1.0.5        |DONE      |Manifest: NOSIGNATURE
+		CloudSettings-1.20.X-2.0.0.7-forge.jar            |CloudSettings                 |cloudsettings                 |2.0.0.7             |DONE      |Manifest: NOSIGNATURE
+		fabric-block-api-v1-1.0.11+0e6cb7f777.jar         |Fabric Block API (v1)         |fabric_block_api_v1           |1.0.11+0e6cb7f777   |DONE      |Manifest: NOSIGNATURE
+		smoothboot(reloaded)-mc1.20.1-0.0.4.jar           |Smooth Boot (Reloaded)        |smoothboot                    |0.0.4               |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-conditions-api-v1-2.3.8+9ad825cd77|Fabric Resource Conditions API|fabric_resource_conditions_api|2.3.8+9ad825cd77    |DONE      |Manifest: NOSIGNATURE
+		fabric-item-group-api-v1-4.0.12+c9161c2d77.jar    |Fabric Item Group API (v1)    |fabric_item_group_api_v1      |4.0.12+c9161c2d77   |DONE      |Manifest: NOSIGNATURE
+		enhancedblockentities-0.9+1.20$spruceui-5.0.0+1.20|SpruceUI                      |spruceui                      |5.0.01.20           |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.6.2-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.6.2               |DONE      |Manifest: NOSIGNATURE
+		canary-mc1.20.1-0.3.3.jar                         |Canary                        |canary                        |0.3.3               |DONE      |Manifest: NOSIGNATURE
+		fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar        |FastQuit                      |fastquit                      |3.0.01.20           |DONE      |Manifest: NOSIGNATURE
+		Connector-1.0.0-beta.41+1.20.1-mod.jar            |Connector                     |connectormod                  |1.0.0-beta.41+1.20.1|DONE      |Manifest: NOSIGNATURE
+		fabric-biome-api-v1-13.0.13+dd0389a577.jar        |Fabric Biome API (v1)         |fabric_biome_api_v1           |13.0.13+dd0389a577  |DONE      |Manifest: NOSIGNATURE
+		fabric-entity-events-v1-1.6.0+6274ab9d77.jar      |Fabric Entity Events (v1)     |fabric_entity_events_v1       |1.6.0+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		fabric-registry-sync-v0-2.3.3+1c0ea72177.jar      |Fabric Registry Sync (v0)     |fabric_registry_sync_v0       |2.3.3+1c0ea72177    |DONE      |Manifest: NOSIGNATURE
+		worldedit-mod-7.2.15.jar                          |WorldEdit                     |worldedit                     |7.2.15+6463-5ca4dff |DONE      |Manifest: NOSIGNATURE
+		ImmediatelyFast-Forge-1.2.11+1.20.4.jar           |ImmediatelyFast               |immediatelyfast               |1.2.11+1.20.4       |DONE      |Manifest: NOSIGNATURE
+		breaking_tools_drops_items-1.0.0.jar              |Breaking Tools Drops Items    |breaking_tools_drops_items    |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		enhancedblockentities-0.9+1.20$arrp-0.6.7_mapped_s|Runtime Resource Pack         |advanced_runtime_resource_pack|0.6.7               |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.7.jar                 |KubeJS                        |kubejs                        |2001.6.5-build.7    |DONE      |Manifest: NOSIGNATURE
+		fabric-recipe-api-v1-1.0.21+514a076577.jar        |Fabric Recipe API (v1)        |fabric_recipe_api_v1          |1.0.21+514a076577   |DONE      |Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		fabric-loot-api-v2-1.2.1+eb28f93e77.jar           |Fabric Loot API (v2)          |fabric_loot_api_v2            |1.2.1+eb28f93e77    |DONE      |Manifest: NOSIGNATURE
+		fabric-object-builder-api-v1-11.1.3+2174fc8477.jar|Fabric Object Builder API (v1)|fabric_object_builder_api_v1  |11.1.3+2174fc8477   |DONE      |Manifest: NOSIGNATURE
+		enhancedblockentities-0.9+1.20_mapped_srg_1.20.1.j|Enhanced Block Entities       |enhancedblockentities         |0.91.20             |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.37+a6081af|Fabric Rendering Data Attachme|fabric_rendering_data_attachme|0.3.37+a6081afc77   |DONE      |Manifest: NOSIGNATURE
+		fabric-networking-api-v1-1.3.11+503a202477.jar    |Fabric Networking API (v1)    |fabric_networking_api_v1      |1.3.11+503a202477   |DONE      |Manifest: NOSIGNATURE
+		fabric-sound-api-v1-1.0.13+4f23bd8477.jar         |Fabric Sound API (v1)         |fabric_sound_api_v1           |1.0.13+4f23bd8477   |DONE      |Manifest: NOSIGNATURE
+		fabric-message-api-v1-5.1.9+52cc178c77.jar        |Fabric Message API (v1)       |fabric_message_api_v1         |5.1.9+52cc178c77    |DONE      |Manifest: NOSIGNATURE
+		fabric-lifecycle-events-v1-2.2.22+afab492177.jar  |Fabric Lifecycle Events (v1)  |fabric_lifecycle_events_v1    |2.2.22+afab492177   |DONE      |Manifest: NOSIGNATURE
+		fabric-data-generation-api-v1-12.3.4+369cb3a477.ja|Fabric Data Generation API (v1|fabric_data_generation_api_v1 |12.3.4+369cb3a477   |DONE      |Manifest: NOSIGNATURE
+		fabric-events-interaction-v0-0.6.2+0d0bd5a777.jar |Fabric Events Interaction (v0)|fabric_events_interaction_v0  |0.6.2+0d0bd5a777    |DONE      |Manifest: NOSIGNATURE
+		fabric-key-binding-api-v1-1.0.37+561530ec77.jar   |Fabric Key Binding API (v1)   |fabric_key_binding_api_v1     |1.0.37+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-client-tags-api-v1-1.1.2+5d6761b877.jar    |Fabric Client Tags            |fabric_client_tags_api_v1     |1.1.2+5d6761b877    |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 190bb00b-7d1b-4f55-9783-29df3fe0e4b6
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.32

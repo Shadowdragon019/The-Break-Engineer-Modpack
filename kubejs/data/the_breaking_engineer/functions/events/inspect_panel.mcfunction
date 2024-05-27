@@ -1,0 +1,2 @@
+function the_breaking_engineer:delayed_dialogue/storage_room/panel_inspection_1
+setblock 55 -50 1 minecraft:green_terracotta

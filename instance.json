@@ -110,13 +110,1149 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "WorldEdit",
+        "version": "WorldEdit 7.2.15 (Forge/Fabric for MC 1.20/1.20.1)",
+        "optional": true,
+        "file": "worldedit-mod-7.2.15.jar",
+        "type": "mods",
+        "description": "In-game Minecraft map editor - build bigger things more quickly!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 225608,
+        "curseForgeFileId": 4586218,
+        "curseForgeProject": {
+          "id": 225608,
+          "name": "WorldEdit",
+          "authors": [
+            {
+              "id": 6858201,
+              "name": "sk89q",
+              "url": "https://www.curseforge.com/members/sk89q"
+            },
+            {
+              "id": 3597986,
+              "name": "wizjany_",
+              "url": "https://www.curseforge.com/members/wizjany_"
+            },
+            {
+              "id": 6838603,
+              "name": "me4502",
+              "url": "https://www.curseforge.com/members/me4502"
+            },
+            {
+              "id": 100630167,
+              "name": "octylFractal",
+              "url": "https://www.curseforge.com/members/octylfractal"
+            }
+          ],
+          "gameId": 432,
+          "summary": "In-game Minecraft map editor - build bigger things more quickly!",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 423,
+          "classId": 6,
+          "slug": "worldedit",
+          "isFeatured": false,
+          "dateModified": "2024-05-21T10:36:17.657Z",
+          "dateCreated": "2014-11-15T03:43:50.217Z",
+          "dateReleased": "2024-05-21T10:31:54.85Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
+            "wikiUrl": "https://worldedit.enginehub.org",
+            "issuesUrl": "https://github.com/enginehub/worldedit/issues",
+            "sourceUrl": "https://github.com/enginehub/WorldEdit"
+          },
+          "logo": {
+            "id": 308038,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/308/38/256/256/637390518698344085.png",
+            "title": "637390518698344085.png",
+            "url": "https://media.forgecdn.net/avatars/308/38/637390518698344085.png",
+            "modId": 225608
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 16948,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/16/948/310/172/logo.png",
+              "title": "Logo",
+              "url": "https://media.forgecdn.net/attachments/16/948/logo.png",
+              "modId": 225608
+            }
+          ],
+          "mainFileId": 5361158
+        },
+        "curseForgeFile": {
+          "id": 4586218,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "WorldEdit 7.2.15 (Forge/Fabric for MC 1.20/1.20.1)",
+          "fileName": "worldedit-mod-7.2.15.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-06-14T09:09:03.587Z",
+          "fileLength": 5825402,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3563299400,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2897070019,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2331569327,
+              "name": "com"
+            },
+            {
+              "fingerprint": 585629097,
+              "name": "defaults"
+            },
+            {
+              "fingerprint": 3373696882,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 2906606175,
+              "name": "lang"
+            },
+            {
+              "fingerprint": 1745531210,
+              "name": "mappings"
+            },
+            {
+              "fingerprint": 2473892091,
+              "name": "net"
+            },
+            {
+              "fingerprint": 1275930813,
+              "name": "org"
+            },
+            {
+              "fingerprint": 3106184182,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1636152225,
+              "name": "worldedit-fabric-mc1.20-refmap.json"
+            },
+            {
+              "fingerprint": 646417837,
+              "name": "worldedit-fabric.mixins.json"
+            },
+            {
+              "fingerprint": 208824130,
+              "name": "worldedit.accesswidener"
+            },
+            {
+              "fingerprint": 392472321,
+              "name": "worldedit-forge.mixins.json"
+            },
+            {
+              "fingerprint": 3053953201,
+              "name": "worldedit-forge.mixins.refmap.json"
+            },
+            {
+              "fingerprint": 2897070019,
+              "name": "worldedit-icon.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "9c52765ca56f917ef8cbafc20e9a4f45c346508f",
+              "algo": 1
+            },
+            {
+              "value": "bd0e7cff7896348faab92e43300d0639",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "1.20.1",
+            "Forge",
+            "1.20",
+            "Server"
+          ],
+          "fileFingerprint": 1066971240,
+          "modId": 225608
+        }
+      },
+      {
+        "name": "WorldEdit CUI (Forge)",
+        "version": "WorldEdit CUI (Forge) 1.20+01",
+        "optional": true,
+        "file": "WorldEditCUI-1.20+01.jar",
+        "type": "mods",
+        "description": "A graphical user interface for WorldEdit, designed to assist in using WorldEdit, as well as preventing accidental errors.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "lOELapP1",
+          "slug": "worldeditcui-forge",
+          "project_type": "mod",
+          "team": "6A6y0Ezq",
+          "title": "WorldEdit CUI (Forge)",
+          "description": "A graphical user interface for WorldEdit, designed to assist in using WorldEdit, as well as preventing accidental errors.",
+          "body": "WorldEdit CUI (Forge)\n------------\n\nThis is a port for the [WorldEdit CUI (Fabric)](https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric) utility to the Forge platform.\n\nWorldEdit CUI is a graphical user interface for [WorldEdit]. WorldEditCUI is designed\nto assist in using WorldEdit, as well as preventing accidental errors.\n\nPlease note that this is not [WorldEdit], which allows you to make changes\nto your world, but WorldEditCUI, a frontend for WorldEdit. You must have\nWorldEdit installed on your server.\n \nInstallation\n------------\n\nInstall this mod into Minecraft mods folder.\n\nWorldEdit selections will be shown without any configuration necessary, and the colours used can be configured from the forge mod menu.\n\nCredits\n-------\n\nThe Forge port:\n * [Zbx1425](https://github.com/zbx1425), which is me\n * [Shedaniel](https://github.com/shedaniel) for the Architectury cross-loader build system\n\nOriginal WorldEdit CUI (Fabric):\n * [Mumfrey](https://github.com/Mumfrey), [yetanotherx](https://github.com/yetanotherx), [mikroskeem](https://github.com/mikroskeem), and [zml](https://github.com/zml2008) for maintaining WorldEditCUI previously\n * [lahwran](https://github.com/lahwran) - Creator of the original WorldEdit CUI!\n * [sk89q](http://sk89q.com) for writing the WorldEdit plugin!\n * [Mojang](http://mojang.com) - for making such an awesome game!\n\nLegal stuff\n-----------\n\nThis code is licensed under the [Eclipse Public License v1].\n\n[WorldEdit]: https://enginehub.org/worldedit/\n[Eclipse Public License v1]: https://www.eclipse.org/org/documents/epl-v10.php",
+          "published": "2023-09-05T14:31:09.879453Z",
+          "updated": "2023-09-05T14:37:12.061789Z",
+          "status": "approved",
+          "license": {
+            "id": "EPL-1.0",
+            "name": "Eclipse Public License 1.0"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "management",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/lOELapP1/5fc20d8620bbe93cd4a5d80211b9deae9fadb432.png",
+          "source_url": "https://github.com/zbx1425/WorldEditCUI-Arch",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/lOELapP1/images/7c549fbb5d33ae8e2abd6937c73d66a88fc043cc.png",
+              "featured": true,
+              "title": "Selection Cuboid Display",
+              "created": "2023-09-05T14:44:24.770097Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "SRJCpmta",
+          "project_id": "lOELapP1",
+          "author_id": "TmTwwZfj",
+          "name": "WorldEdit CUI (Forge) 1.20+01",
+          "version_number": "1.20+01",
+          "changelog": "",
+          "date_published": "2023-09-05T14:37:13.322877Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "72d5eb0bdb2fdb21b5a19a65208fc07f8e92c32976b614e5b293677e0801fdc42a01d10e82345f63fec5a89f21b016c077dd98ef94d7c56c7a83a9114cdf3630",
+                "sha1": "5f0676a7369999e7414e7b2ab4f90da1f51471d4"
+              },
+              "url": "https://cdn.modrinth.com/data/lOELapP1/versions/SRJCpmta/WorldEditCUI-1.20%2B01.jar",
+              "filename": "WorldEditCUI-1.20+01.jar",
+              "primary": true,
+              "size": 168681
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Architectury API",
+        "version": "[Forge 1.20(.1)] v9.2.14",
+        "optional": true,
+        "file": "architectury-9.2.14-forge.jar",
+        "type": "mods",
+        "description": "An intermediary api aimed to ease developing multiplatform mods.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 419699,
+        "curseForgeFileId": 5137938,
+        "curseForgeProject": {
+          "id": 419699,
+          "name": "Architectury API (Fabric/Forge/NeoForge)",
+          "authors": [
+            {
+              "id": 32851078,
+              "name": "shedaniel",
+              "url": "https://www.curseforge.com/members/shedaniel"
+            },
+            {
+              "id": 57500433,
+              "name": "Juicebus",
+              "url": "https://www.curseforge.com/members/juicebus"
+            },
+            {
+              "id": 19463137,
+              "name": "MaxNeedsSnacks",
+              "url": "https://www.curseforge.com/members/maxneedssnacks"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An intermediary api aimed to ease developing multiplatform mods.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "architectury-api",
+          "isFeatured": false,
+          "dateModified": "2024-05-21T00:13:16.523Z",
+          "dateCreated": "2020-11-13T16:18:57.733Z",
+          "dateReleased": "2024-05-21T00:05:48.723Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+            "wikiUrl": "https://docs.architectury.dev/plugin:get_started",
+            "issuesUrl": "https://github.com/architectury/architectury/issues",
+            "sourceUrl": "https://github.com/architectury/architectury"
+          },
+          "logo": {
+            "id": 313420,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/313/420/256/256/637408811378175814.png",
+            "title": "637408811378175814.png",
+            "url": "https://media.forgecdn.net/avatars/313/420/637408811378175814.png",
+            "modId": 419699
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5360224
+        },
+        "curseForgeFile": {
+          "id": 5137938,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Forge 1.20(.1)] v9.2.14",
+          "fileName": "architectury-9.2.14-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-02-26T13:18:59.227Z",
+          "fileLength": 580602,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4197241541,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3194081947,
+              "name": "architectury-common-refmap.json"
+            },
+            {
+              "fingerprint": 2727520268,
+              "name": "architectury-common.mixins.json"
+            },
+            {
+              "fingerprint": 2423354874,
+              "name": "architectury-forge-refmap.json"
+            },
+            {
+              "fingerprint": 72806895,
+              "name": "architectury.mixins.json"
+            },
+            {
+              "fingerprint": 1965221334,
+              "name": "architectury_inject_architectury_common_80cedf8dd72c40a6bd63cf8d4dfde4d7_f92da2fc2f924385deb0a8573f93a1fea673c1cc161303e1dab80424e034ea78architectury9214devjar"
+            },
+            {
+              "fingerprint": 386307470,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3177202238,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 337711864,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1096803035,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+              "algo": 1
+            },
+            {
+              "value": "76b40d407b6bf0257dd1dab6d3d395d5",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 98480002,
+          "modId": 419699
+        },
+        "modrinthProject": {
+          "id": "lhGA9TYQ",
+          "slug": "architectury-api",
+          "project_type": "mod",
+          "team": "72qgsq9X",
+          "title": "Architectury API",
+          "description": "An intermediary api aimed to ease developing multiplatform mods.",
+          "body": "# Architectury API\n\nTalk to us on [Discord](https://discord.gg/C2RdJDpRBP)!\n\nAn intermediary api aimed to ease developing multiplatform mods.\n\n### What is Architectury API\n\nArchitectury API is an api to abstract calls to fabric api and forge api as both loader has different implementations of\nwhat can be perceived as the same thing.\n\nArchitectury API updates regularly, with new hooks and features. Currently contains over **90** events hooks, networking\nabstraction, loader calls abstraction, game registry abstraction and an easy to use @ExpectPlatform annotation (Only\nworks on static methods).\n\n### Do I really need this API?\n\nArchitectury API is only one part of the architectury ecosystem, **Architectury Plugin** is the gradle plugin enabling\nall this multiplatform actions.\n\nArchitectury API is optional for projects built on architectury, you may create your architectury project with just\nArchitectury Plugin.\n\n### Advantages of Architectury\n\n- Open sourced\n- Less boilerplate for your multiplatform mod\n\n### Getting started with making multiplatform mods\n\nArchitectury Loom: https://github.com/architectury/architectury-loom (a fork of Fabric Loom adding multiplatform development capabilities)\n\nGradle Plugin: https://github.com/architectury/architectury-plugin (includes Architectury Injectables, for the `@ExpectPlatform` annotation)\n\nExample Mod: https://github.com/architectury/architectury-example-mod (a discontinued example mod using Architectury, if possible, use the templates instead)\n\nMod Templates: https://github.com/architectury/architectury-templates (a set of templates to get started using the Architectury toolchain)\n\n### Example: Usage of @ExpectPlatform\n![Exmaple of the @ExpectPlatform annotation, part of Architectury Injectables](https://camo.githubusercontent.com/78c68766affb70fbd88f9806e0e95f78765ec339448d7102065f2942be2b3215/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3538363138363230323738313138383130382f3737363432383831343330393738353632302f756e6b6e6f776e2e706e673f77696474683d31313931266865696768743d343339)\n\n### Credits\n\nIn certain older versions, this library used to bundle typetools; you can find its license [here](https://github.com/jhalterman/typetools/blob/master/LICENSE.txt \"\")",
+          "published": "2020-11-16T10:40:17.116288Z",
+          "updated": "2024-05-21T00:05:49.525945Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/lhGA9TYQ/icon.png",
+          "issues_url": "https://github.com/architectury/architectury/issues",
+          "source_url": "https://github.com/architectury/architectury",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://patreon.com/shedaniel"
+            },
+            {
+              "id": "github",
+              "platform": "Github",
+              "url": "https://github.com/sponsors/MaxNeedsSnacks"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "1MKTLiiG",
+          "project_id": "lhGA9TYQ",
+          "author_id": "OQodw31Z",
+          "name": "[Forge 1.20(.1)] v9.2.14",
+          "version_number": "9.2.14+forge",
+          "changelog": "## Architectury v9.2.14 for 1.20(.1)\nUpdated at **2024-02-26 13:18**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.20)",
+          "date_published": "2024-02-26T13:19:00.816154Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+                "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+              },
+              "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+              "filename": "architectury-9.2.14-forge.jar",
+              "primary": true,
+              "size": 580602
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Rhino",
+        "version": "Rhino Forge 2001.2.2-build.18",
+        "optional": true,
+        "file": "rhino-forge-2001.2.2-build.18.jar",
+        "type": "mods",
+        "description": "A fork of Mozilla's Rhino library, modified for use in mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 416294,
+        "curseForgeFileId": 4944325,
+        "curseForgeProject": {
+          "id": 416294,
+          "name": "Rhino",
+          "authors": [
+            {
+              "id": 11776558,
+              "name": "LatvianModder",
+              "url": "https://www.curseforge.com/members/latvianmodder"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A fork of Mozilla's Rhino library, modified for use in mods",
+          "categories": [
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "rhino",
+          "isFeatured": false,
+          "dateModified": "2024-05-01T21:45:23.903Z",
+          "dateCreated": "2020-10-29T12:27:51.73Z",
+          "dateReleased": "2024-04-28T19:13:15.283Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rhino",
+            "wikiUrl": "https://kubejs.com/",
+            "issuesUrl": "https://kubejs.com/support?source=rhino",
+            "sourceUrl": "https://github.com/KubeJS-Mods/Rhino"
+          },
+          "logo": {
+            "id": 309581,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/309/581/256/256/637395712717607219.png",
+            "title": "637395712717607219.png",
+            "url": "https://media.forgecdn.net/avatars/309/581/637395712717607219.png",
+            "modId": 416294
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4953345
+        },
+        "curseForgeFile": {
+          "id": 4944325,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Rhino Forge 2001.2.2-build.18",
+          "fileName": "rhino-forge-2001.2.2-build.18.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-12-09T21:19:49.103Z",
+          "fileLength": 1782275,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2551109835,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2294866833,
+              "name": "architectury_inject_Rhino_common_ca9c982d5d6946bcad5cec4992730d92_f71df32d8b841d82b3916ad190f0683de18a84cea8c1337584b277b05051d2f9rhino200122build18devjar"
+            },
+            {
+              "fingerprint": 812994412,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 746056783,
+              "name": "mm.jsmappings"
+            },
+            {
+              "fingerprint": 939660779,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1493072104,
+              "name": "rhino-common-refmap.json"
+            },
+            {
+              "fingerprint": 3096420155,
+              "name": "rhino-common.mixins.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "0a631b4e8235a777d08bd53d4f49dba388205cad",
+              "algo": 1
+            },
+            {
+              "value": "d0ee9715edfcb029f59687a08fb88a53",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3409080531,
+          "modId": 416294
+        },
+        "modrinthProject": {
+          "id": "sk9knFPE",
+          "slug": "rhino",
+          "project_type": "mod",
+          "team": "zzKhfQN9",
+          "title": "Rhino",
+          "description": "A fork of Mozilla's Rhino library, modified for use in mods",
+          "body": "A fork of Mozilla's Rhino library, modified for use in mods. This library adds JavaScript engine Rhino that supports ES6 and doesn't depend on built-in Nashorn engine that got removed in Java 15.\n\n \n\nThis mod doesn't do anything on it's own, it's a library used by [KubeJS](https://modrinth.com/mod/kubejs).\n\n[![](https://kubejs.com/discord.png)](https://discord.gg/lat)",
+          "published": "2022-05-24T10:55:02.752080Z",
+          "updated": "2024-04-28T19:13:16.293817Z",
+          "status": "approved",
+          "license": {
+            "id": "MPL-2.0",
+            "name": "Mozilla Public License 2.0"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/sk9knFPE/icon.png",
+          "issues_url": "https://kubejs.com/support?source=rhino",
+          "source_url": "https://github.com/KubeJS-Mods/Rhino",
+          "wiki_url": "https://kubejs.com/",
+          "discord_url": "https://discord.gg/lat",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "w5HiejeN",
+          "project_id": "sk9knFPE",
+          "author_id": "7tgPcl7v",
+          "name": "Rhino Forge 2001.2.2-build.18",
+          "version_number": "2001.2.2-build.18+forge",
+          "changelog": "- Attempt at bandaid fixing concurrency issues III - LatvianModder\n- Attempt at bandaid fixing concurrency issues II. Removed Script and Continuation native objects - LatvianModder\n- Attempt at bandaid fixing concurrency issues - LatvianModder\n- Merge pull request #41 from pietro-lopes/1.20/dev - Kristiāns Micītis\n- Fixed some general concurrency issue - pietro-lopes",
+          "date_published": "2023-12-09T21:19:50.854557Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "0a631b4e8235a777d08bd53d4f49dba388205cad",
+                "sha512": "1fd5f5667e0f078797112df7ae5f300d2fed2c992fdfd0818569e9286d9bdf6c311cf722cbef542a9ecd78577dde5f88e3cfaa48824d0d75bfede9fd4e1be18e"
+              },
+              "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/w5HiejeN/rhino-forge-2001.2.2-build.18.jar",
+              "filename": "rhino-forge-2001.2.2-build.18.jar",
+              "primary": true,
+              "size": 1782275
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "KubeJS",
+        "version": "KubeJS Forge 2001.6.5-build.7",
+        "optional": true,
+        "file": "kubejs-forge-2001.6.5-build.7.jar",
+        "type": "mods",
+        "description": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 238086,
+        "curseForgeFileId": 5268032,
+        "curseForgeProject": {
+          "id": 238086,
+          "name": "KubeJS",
+          "authors": [
+            {
+              "id": 11776558,
+              "name": "LatvianModder",
+              "url": "https://www.curseforge.com/members/latvianmodder"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "World Gen",
+              "slug": "world-gen",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen",
+              "dateModified": "2017-10-16T21:40:11.473Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 406,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/26/635351494599748860.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5314,
+          "classId": 6,
+          "slug": "kubejs",
+          "isFeatured": false,
+          "dateModified": "2024-05-23T20:20:41.6Z",
+          "dateCreated": "2015-11-19T21:38:50.513Z",
+          "dateReleased": "2024-05-23T20:16:56.887Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kubejs",
+            "wikiUrl": "https://kubejs.com/",
+            "issuesUrl": "https://kubejs.com/support?source=kubejs",
+            "sourceUrl": "https://github.com/KubeJS-Mods/KubeJS"
+          },
+          "logo": {
+            "id": 218214,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/218/214/256/256/637010579670184115.png",
+            "title": "637010579670184115.png",
+            "url": "https://media.forgecdn.net/avatars/218/214/637010579670184115.png",
+            "modId": 238086
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5367458
+        },
+        "curseForgeFile": {
+          "id": 5268032,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "KubeJS Forge 2001.6.5-build.7",
+          "fileName": "kubejs-forge-2001.6.5-build.7.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-04-16T18:00:39.02Z",
+          "fileLength": 1651674,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 416294,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 416294,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2794999618,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1069997295,
+              "name": "architectury.common.json"
+            },
+            {
+              "fingerprint": 1312275709,
+              "name": "architectury_inject_KubeJS120_common_3173818047284ccaa127b8fe7ad1449f_21d5bed1491b8d517309daca6ae2cd71decaa1ef3407fa8dbe2dccf763312e56kubejs200165build7devjar"
+            },
+            {
+              "fingerprint": 3881697604,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 196213762,
+              "name": "data"
+            },
+            {
+              "fingerprint": 796826215,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 2597543679,
+              "name": "kubejs-common-refmap.json"
+            },
+            {
+              "fingerprint": 357996985,
+              "name": "kubejs-common.mixins.json"
+            },
+            {
+              "fingerprint": 1493072104,
+              "name": "kubejs-forge-refmap.json"
+            },
+            {
+              "fingerprint": 2740693488,
+              "name": "kubejs-forge.mixins.json"
+            },
+            {
+              "fingerprint": 3132297912,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 658118443,
+              "name": "kubejs_logo.png"
+            },
+            {
+              "fingerprint": 925984517,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a41d08fbf8148a198c438e74d426c6f79bb901f1",
+              "algo": 1
+            },
+            {
+              "value": "af76fc8f23458213eaae50a6af2cb277",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1343039795,
+          "modId": 238086
+        },
+        "modrinthProject": {
+          "id": "umyGl7zF",
+          "slug": "kubejs",
+          "project_type": "mod",
+          "team": "YlpCyjKr",
+          "title": "KubeJS",
+          "description": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+          "body": "# KubeJS\n\n---\n\n## What does this mod do?\nThis mod lets you create scripts in JavaScript language to manage your server, add new blocks and items, change recipes and tags, add custom handlers for quest mods, change worldgen and more!\n\n## How to use it?\nRun the game with mod installed once. It should generate `kubejs` folder in your minecraft directory with example scripts. startup scripts only get run once when the game loads. Those are for registering items, setting up configs etc. Server/data scripts are loaded when you join a world, those are better for things like clearlag, displaying custom login messages and world/player related things in general.\n\n## Can I reload scripts?\nYes, use `/reload`. Note: Not everything is reloadable. Some things require you to restart game, some only world, some work on fly.\n\n## I don't know JavaScript / I need help with this mod\nThere's examples and pre-made scripts on [KubeJS Wiki](https://kubejs.com/).\n\n## How does this mod work?\nIt uses [Rhino](https://modrinth.com/mod/rhino), a JavaScript engine originally by Mozilla.\n\n## Ok, but what if it.. doesn't work?\nYou can report issues on [Here](https://kubejs.com/support?source=kubejs).\n\n## I have more questions/suggestions!\nIf wiki didn't have the answer for what you were looking for, you can join the [Discord server](https://discord.gg/lat) and ask for help in one of the `#support` channels!\n\n[![](https://kubejs.com/discord.png)](https://discord.gg/lat)",
+          "published": "2022-05-24T16:43:25.500518Z",
+          "updated": "2024-05-23T20:16:58.345176Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/umyGl7zF/icon.png",
+          "issues_url": "https://kubejs.com/support?source=kubejs",
+          "source_url": "https://github.com/KubeJS-Mods/KubeJS",
+          "wiki_url": "https://kubejs.com/",
+          "discord_url": "https://discord.gg/lat",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "YAwgjR2e",
+          "project_id": "umyGl7zF",
+          "author_id": "7tgPcl7v",
+          "name": "KubeJS Forge 2001.6.5-build.7",
+          "version_number": "2001.6.5-build.7+forge",
+          "changelog": "",
+          "date_published": "2024-04-16T18:00:41.339392Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "71983984d6aaba03ea0ba535e6bde59500991c61f8357111e85d7e6d3d454f4a53408104ddc3566fd45f837251c21e7112a0e30affdc1b2cdf2059946ff7adb0",
+                "sha1": "a41d08fbf8148a198c438e74d426c6f79bb901f1"
+              },
+              "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/YAwgjR2e/kubejs-forge-2001.6.5-build.7.jar",
+              "filename": "kubejs-forge-2001.6.5-build.7.jar",
+              "primary": true,
+              "size": 1651674
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "lhGA9TYQ",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "sk9knFPE",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "CraftTweaker",
+        "version": "Forge-1.20.1-14.0.38",
+        "optional": true,
+        "file": "CraftTweaker-forge-1.20.1-14.0.38.jar",
+        "type": "mods",
+        "description": "CraftTweaker allows modpacks and servers to customize the game. With CraftTweaker you can change recipes, script events, add new commands and even change item properties!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "Xg35A4rS",
+          "slug": "crafttweaker",
+          "project_type": "mod",
+          "team": "eVtU9S5P",
+          "title": "CraftTweaker",
+          "description": "CraftTweaker allows modpacks and servers to customize the game. With CraftTweaker you can change recipes, script events, add new commands and even change item properties!",
+          "body": "<p style=\"text-align:center\"><span style=\"font-size:14px\"><img src=\"https://i.blamejared.com/crafttweaker.svg\" alt=\"small_logo\" width=\"12.5%\"></span></p>\n<p style=\"text-align:center;margin-right:1rem\"><span style=\"font-size:14px\"><img src=\"https://i.blamejared.com/crafttweaker_banner.png\" width=\"60%\"></span></p>\n<p style=\"text-align:center;margin-right:1rem\"><span style=\"font-size:14px\">&nbsp;</span></p>\n<p style=\"text-align:center;margin-right:1rem\"><span style=\"font-size:14px\"><a href=\"https://github.com/CraftTweaker/CraftTweaker/issues\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/issues/CraftTweaker/CraftTweaker?style=flat-square\" alt=\"Github Issues\" width=\"98\" height=\"20\"></a><a href=\"https://github.com/CraftTweaker/CraftTweaker/blob/1.16/LICENSE\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/license/CraftTweaker/CraftTweaker?color=0690ff&style=flat-square\" alt=\"License \" width=\"78\" height=\"20\"></a><img src=\"https://img.shields.io/jenkins/build?jobUrl=https://ci.blamejared.com/job/Jared/job/Minecraft Mods/job/CraftTweaker/job/1.19/&amp;amp;style=flat-square&cache=1\" alt=\"Jenkins\" width=\"88\" height=\"20\"></span></p>\n<p><span style=\"font-size:14px\">CraftTweaker is a Minecraft mod which allows modpacks and servers to customize the game. With CraftTweaker you can change recipes, script events, add new commands and even change item properties! When used with other mods the possibilities become endless. Ranging from custom machine recipes to entirely new blocks and items!</span></p>\n<p><span style=\"font-size:14px\">CraftTweaker lets you customize the game to your hearts content, from simple things like changing recipes or adding tooltips to items, to more advanced things like subscribing to events or changing properties about items! When combined with addon mods, the possibilities truly become endless, with things like adding completely new blocks and items to the game and even adding new completely custom trees to the world gen!</span></p>\n<p><span style=\"font-size:14px\">Most modpacks you have played with use CraftTweaker to change their recipes, removing conflicting recipes or even building a central theme for their modpack!</span></p>\n<p><span style=\"font-size:14px\">All the information you need to get started with CraftTweaker can be found on the <a href=\"https://docs.blamejared.com\" rel=\"\">Wiki&nbsp;</a>and if you need more help, you can join the <a href=\"https://discord.blamejared.com\" rel=\"nofollow\">Discord&nbsp;</a>and ask for help there!</span></p>\n\nIf you would like to support me in my modding endeavors, you can become a patron via **[![Patreon logo](https://i.imgur.com/CAJuExT.png) Patreon](https://www.patreon.com/jaredlll08)**.\n\n[![Nodecraft sponsor banner](https://assets.blamejared.com/nodecraft/jared.jpg)](https://nodecraft.com/r/jared)\n\n**This project is sponsored by Nodecraft. Use code [JARED](https://nodecraft.com/r/jared) for 30% off your first month of service!**",
+          "published": "2023-06-07T08:06:56.925895Z",
+          "updated": "2024-05-24T19:30:48.933702Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/Xg35A4rS/01da4807fc1b527ff3d60261860e9c821d2b72e2.png",
+          "issues_url": "https://github.com/CraftTweaker/CraftTweaker/issues",
+          "source_url": "https://github.com/CraftTweaker/CraftTweaker",
+          "wiki_url": "https://docs.blamejared.com/",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "Zh2rkENW",
+          "project_id": "Xg35A4rS",
+          "author_id": "l45nT5ov",
+          "name": "Forge-1.20.1-14.0.38",
+          "version_number": "14.0.38",
+          "changelog": "- [Expose methods in Mob and related classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b0b7368633fcf356c4e24b3464e7a8e6d06c5fe) - Jared",
+          "date_published": "2024-03-25T14:43:04.366429Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "4e505c222c2dcbc5338e828dbc84c2c7dc6a7293",
+                "sha512": "fd644d22d7ad05f18c0c088a148f1ec542f755f354df8eec76989b37f1b2bb43aac66e541150a7c10341daafa75571e10846df0247bdde8b7d9b83aae60d4876"
+              },
+              "url": "https://cdn.modrinth.com/data/Xg35A4rS/versions/Zh2rkENW/CraftTweaker-forge-1.20.1-14.0.38.jar",
+              "filename": "CraftTweaker-forge-1.20.1-14.0.38.jar",
+              "primary": true,
+              "size": 3260442
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1716753885274,
-    "numPlays": 3
+    "lastPlayed": 1716785306400,
+    "numPlays": 14
   },
   "id": "1.20.1",
   "complianceLevel": 1,
@@ -332,8 +1468,6 @@
   },
   "libraries": [
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:securejarhandler:2.1.10",
       "downloads": {
         "artifact": {
@@ -345,8 +1479,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm:9.7",
       "downloads": {
         "artifact": {
@@ -358,8 +1490,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-commons:9.7",
       "downloads": {
         "artifact": {
@@ -371,8 +1501,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-tree:9.7",
       "downloads": {
         "artifact": {
@@ -384,8 +1512,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-util:9.7",
       "downloads": {
         "artifact": {
@@ -397,8 +1523,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-analysis:9.7",
       "downloads": {
         "artifact": {
@@ -410,8 +1534,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:accesstransformers:8.0.4",
       "downloads": {
         "artifact": {
@@ -423,8 +1545,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.antlr:antlr4-runtime:4.9.1",
       "downloads": {
         "artifact": {
@@ -436,8 +1556,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:eventbus:6.0.5",
       "downloads": {
         "artifact": {
@@ -449,8 +1567,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:forgespi:7.0.1",
       "downloads": {
         "artifact": {
@@ -462,8 +1578,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:coremods:5.1.6",
       "downloads": {
         "artifact": {
@@ -475,8 +1589,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:modlauncher:10.0.9",
       "downloads": {
         "artifact": {
@@ -488,8 +1600,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:unsafe:0.2.0",
       "downloads": {
         "artifact": {
@@ -501,8 +1611,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:mergetool:1.1.5:api",
       "downloads": {
         "artifact": {
@@ -514,8 +1622,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:core:3.6.4",
       "downloads": {
         "artifact": {
@@ -527,8 +1633,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:toml:3.6.4",
       "downloads": {
         "artifact": {
@@ -540,8 +1644,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.apache.maven:maven-artifact:3.8.5",
       "downloads": {
         "artifact": {
@@ -553,8 +1655,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.jodah:typetools:0.6.3",
       "downloads": {
         "artifact": {
@@ -566,8 +1666,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecrell:terminalconsoleappender:1.2.0",
       "downloads": {
         "artifact": {
@@ -579,8 +1677,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-reader:3.12.1",
       "downloads": {
         "artifact": {
@@ -592,8 +1688,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-terminal:3.12.1",
       "downloads": {
         "artifact": {
@@ -605,8 +1699,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.spongepowered:mixin:0.8.5",
       "downloads": {
         "artifact": {
@@ -618,8 +1710,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.openjdk.nashorn:nashorn-core:15.3",
       "downloads": {
         "artifact": {
@@ -631,8 +1721,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:JarJarSelector:0.3.19",
       "downloads": {
         "artifact": {
@@ -644,8 +1732,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:JarJarMetadata:0.3.19",
       "downloads": {
         "artifact": {
@@ -657,8 +1743,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:bootstraplauncher:1.1.2",
       "downloads": {
         "artifact": {
@@ -670,8 +1754,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:JarJarFileSystems:0.3.19",
       "downloads": {
         "artifact": {
@@ -683,8 +1765,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:fmlloader:1.20.1-47.2.32",
       "downloads": {
         "artifact": {
@@ -696,8 +1776,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.32",
       "downloads": {
         "artifact": {
