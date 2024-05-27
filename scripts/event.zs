@@ -30,7 +30,10 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
 			var serverLevel = level as ServerLevel;
 			if (blockPosesAreEqual(blockPos , new BlockPos(45, -57, 2))) {
 				serverLevel.server.executeCommand("fill 46 -58 1 48 -56 1 air", true);
-				serverLevel.server.executeCommand("function the_breaking_engineer:delayed_dialogue/storage_room/escape", true);
+				serverLevel.server.executeCommand("function the_breaking_engineer:delayed_dialogue/storage_room/escape_1", true);
+				serverLevel.server.executeCommand("schedule function the_breaking_engineer:delayed_dialogue/storage_room/escape_2 2s", true);
+				serverLevel.server.executeCommand("schedule function the_breaking_engineer:delayed_dialogue/storage_room/escape_3 4s", true);
+				serverLevel.server.executeCommand("schedule function the_breaking_engineer:delayed_dialogue/storage_room/escape_4 8s", true);
 			}
 		}
 	}

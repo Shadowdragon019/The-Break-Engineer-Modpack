@@ -1,333 +1,337 @@
-[23:48:28] [main/INFO]: ModLauncher running: args [--username, Sammy_any_all_, --version, 1.20.1, --gameDir, /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer, --assetsDir, /home/mainy/.local/share/atlauncher/assets, --assetIndex, 5, --uuid, 74dd7dbd496f477d83d5671d11deb666, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width=854, --height=480]
-[23:48:28] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Linux arch amd64 version 6.7.6-200.fsync.fc39.x86_64
-[23:48:28] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[23:48:28] [main/INFO]: Trying GL version 4.6
-[23:48:28] [main/INFO]: Requested GL version 4.6 got version 4.6
-[23:48:28] [main/INFO]: Mixin Transmogrifier is definitely up to no good...
-[23:48:28] [main/INFO]: crimes against java were committed
-[23:48:28] [main/INFO]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[23:48:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods/Connector-1.0.0-beta.41+1.20.1.jar%23170%23173!/ Service=ModLauncher Env=CLIENT
-[23:48:28] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 550.54.14, NVIDIA Corporation
-[23:48:28] [main/INFO]: Found mod file Connector-1.0.0-beta.41+1.20.1-mod.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorEarlyLocator@7f02251
-[23:48:28] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file breaking_tools_drops_items-1.0.0.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file canary-mc1.20.1-0.3.3.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file cloth-config-11.1.118-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file CloudSettings-1.20.X-2.0.0.7-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file CraftTweaker-forge-1.20.1-14.0.38.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file CullLessLeaves-Reforged-1.20.1-1.0.5.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file embeddium-0.3.12+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file entityculling-forge-1.6.2-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file fabric-api-0.92.0+1.11.5+1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file FpsReducer2-forge-1.20-2.5.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file ImmediatelyFast-Forge-1.2.11+1.20.4.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.7.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file lazurite-1.0.4+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file modernfix-forge-5.15.0+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file saturn-mc1.20.1-0.1.3.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file smoothboot(reloaded)-mc1.20.1-0.0.4.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file worldedit-mod-7.2.15.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/INFO]: Found mod file WorldEditCUI-1.20+01.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
-[23:48:28] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.32/fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
-[23:48:28] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.32/javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[23:48:28] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.32/lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[23:48:28] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.32/mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[23:48:28] [main/INFO]: Found mod file fmlcore-1.20.1-47.2.32.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:28] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:28] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:28] [main/INFO]: Found mod file mclanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:28] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:28] [main/INFO]: Found mod file forge-1.20.1-47.2.32-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@49dbaaf3
-[23:48:29] [main/INFO]: Found 47 dependencies adding them to mods collection
-[23:48:29] [main/INFO]: Found mod file fabric-dimensions-v1-2.1.54+8005d10d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-transfer-api-v1-3.3.4+b00938ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-game-rule-api-v1-1.0.40+683d4da877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-renderer-api-v1-3.2.1+1d29b44577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-api-base-0.4.31+ef105b4977.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-api-lookup-api-v1-1.6.36+67f9824077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-blockrenderlayer-v1-1.1.41+1d0da21e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-item-api-v1-2.1.28+6ba6353877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-model-loading-api-v1-1.0.3+6274ab9d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-block-api-v1-1.0.11+0e6cb7f777.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-rendering-fluids-v1-3.0.28+4ac5e37a77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-resource-conditions-api-v1-2.3.8+9ad825cd77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-screen-handler-api-v1-1.3.30+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-models-v0-0.4.2+7c3892a477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file Reflect-1.3.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-resource-loader-v0-0.11.10+bcd08ed377.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-rendering-v1-3.0.8+1c0ea72177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-renderer-indigo-1.5.1+67f9824077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-item-group-api-v1-4.0.12+c9161c2d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-convention-tags-v1-1.5.5+fa3d1c0177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-command-api-v1-1.2.34+f71b366f77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-mining-level-api-v1-2.1.50+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-block-view-api-v2-1.0.1+0767707077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-command-api-v2-2.2.13+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-data-attachment-api-v1-1.0.0+30ef839e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file mixinextras-forge-0.3.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-biome-api-v1-13.0.13+dd0389a577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-entity-events-v1-1.6.0+6274ab9d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-registry-sync-v0-2.3.3+1c0ea72177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-recipe-api-v1-1.0.21+514a076577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-loot-api-v2-1.2.1+eb28f93e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-object-builder-api-v1-11.1.3+2174fc8477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-screen-api-v1-2.0.8+45a670a577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-rendering-data-attachment-v1-0.3.37+a6081afc77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-networking-api-v1-1.3.11+503a202477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file Connector-1.0.0-beta.41+1.20.1-fabricloader.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-sound-api-v1-1.0.13+4f23bd8477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-particles-v1-1.1.2+78e1ecb877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file MixinExtras-0.3.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-message-api-v1-5.1.9+52cc178c77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-content-registries-v0-4.0.11+a670df1e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-transitive-access-wideners-v1-4.3.1+1880499877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-lifecycle-events-v1-2.2.22+afab492177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-data-generation-api-v1-12.3.4+369cb3a477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-events-interaction-v0-0.6.2+0d0bd5a777.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-key-binding-api-v1-1.0.37+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Found mod file fabric-client-tags-api-v1-1.1.2+5d6761b877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@7a7cc52c
-[23:48:29] [main/INFO]: Dependency resolution found 5 candidates to load
-[23:48:29] [main/INFO]: Found mod file fastquit-3.0.0+1.20+$MixinExtras-0.1.1_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@462e1e64
-[23:48:29] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20$arrp-0.6.7_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@462e1e64
-[23:48:29] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@462e1e64
-[23:48:29] [main/INFO]: Found mod file fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@462e1e64
-[23:48:29] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20$spruceui-5.0.0+1.20_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@462e1e64
-[23:48:29] [main/INFO]: Successfully made module authlib transformable
-[23:48:30] [main/INFO]: Compatibility level set to JAVA_17
-[23:48:30] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer, --assetsDir, /home/mainy/.local/share/atlauncher/assets, --uuid, 74dd7dbd496f477d83d5671d11deb666, --username, Sammy_any_all_, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width=854, --height=480]
-[23:48:30] [main/INFO]: Loaded Saturn config file with 4 configurable options
-[23:48:30] [main/INFO]: Loaded configuration file for ModernFix 5.15.0+mc1.20.1: 77 options available, 7 override(s) found
-[23:48:30] [main/WARN]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.perf.clear_mixin_classinfo' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.perf.remove_spawn_chunks' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.bugfix.packet_leak' overriden (by user configuration) to 'true'
-[23:48:30] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
-[23:48:30] [main/INFO]: Applying Nashorn fix
-[23:48:30] [main/INFO]: Applied Forge config corruption patch
-[23:48:30] [main/INFO]: OptiFine was NOT detected.
-[23:48:30] [main/INFO]: OptiFabric was NOT detected.
-[23:48:30] [main/INFO]: Loaded configuration file for Embeddium: 117 options available, 0 override(s) found
-[23:48:30] [main/INFO]: Searching for graphics cards...
-[23:48:30] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=GA106 [GeForce RTX 3060 Lite Hash Rate], version=550.54.14]
-[23:48:30] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
-[23:48:30] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[23:48:30] [main/INFO]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
-[23:48:31] [main/INFO]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
-[23:48:31] [main/INFO]: bre2el.fpsreducer.mixin.WindowMixin will NOT be applied because OptiFine was NOT detected.
-[23:48:32] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
-[23:48:32] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
-[23:48:32] [main/WARN]: Opt-in mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is enabled by config
-[23:48:32] [main/INFO]: I used the json to destroy the json
-[23:48:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[23:48:33] [main/INFO]: Smooth Boot (Reloaded) config initialized
-[23:48:33] [main/WARN]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[23:48:33] [pool-4-thread-1/INFO]: ModernFix reached bootstrap stage (6.675 s after launch)
-[23:48:33] [pool-4-thread-1/WARN]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[23:48:33] [pool-4-thread-1/WARN]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[23:48:33] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[23:48:33] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[23:48:34] [pool-4-thread-1/INFO]: Vanilla bootstrap took 895 milliseconds
-[23:48:35] [pool-4-thread-1/WARN]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
-[23:48:36] [Render thread/WARN]: Assets URL 'union:/home/mainy/.local/share/atlauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23198!/assets/.mcassetsroot' uses unexpected schema
-[23:48:36] [Render thread/WARN]: Assets URL 'union:/home/mainy/.local/share/atlauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23198!/data/.mcassetsroot' uses unexpected schema
-[23:48:36] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:48:36] [Render thread/INFO]: Setting user: Sammy_any_all_
-[23:48:36] [Render thread/INFO]: Bypassed Mojang DFU
-[23:48:36] [Render thread/INFO]: [FastQuit] Initialized
-[23:48:37] [Render thread/INFO]: Requesting User Data
-[23:48:37] [pool-8-thread-1/INFO]: Starting Login...
-[23:48:37] [pool-8-thread-1/INFO]: Requesting Server Id
-[23:48:37] [pool-8-thread-1/INFO]: Requested Server Id
-[23:48:37] [pool-8-thread-1/INFO]: Resolved Server Id
-[23:48:37] [pool-8-thread-1/INFO]: Login in into Mojang Session Server
-[23:48:37] [pool-8-thread-1/INFO]: Logged in into Mojang Session Server
-[23:48:37] [pool-8-thread-1/INFO]: Requesting Session Token
-[23:48:37] [pool-8-thread-1/INFO]: Requested Session Token
-[23:48:37] [pool-8-thread-1/INFO]: Resolved Session Token
-[23:48:37] [pool-8-thread-1/INFO]: Login Successful
-[23:48:38] [Render thread/INFO]: Got 115 options from Cloud
-[23:48:38] [Render thread/INFO]: Got 0 changes to sync
-[23:48:38] [Render thread/INFO]: Added resource packs: [mod_resources, vanilla, fabric]
-[23:48:38] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
-[23:48:38] [Render thread/INFO]: Loaded client.properties
-[23:48:38] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
-[23:48:38] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
-[23:48:38] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
-[23:48:38] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 550.54.14
-[23:48:38] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.11+1.20.4 on NVIDIA GeForce RTX 3060/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 550.54.14
-[23:48:38] [Render thread/INFO]: ARRP register - before vanilla
-[23:48:38] [Render thread/INFO]: ARRP register - after vanilla
-[23:48:38] [modloading-worker-0/INFO]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
-[23:48:38] [modloading-worker-0/INFO]: MinecraftForge v47.2.32 Initialized
-[23:48:38] [modloading-worker-0/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[23:48:38] [modloading-worker-0/INFO]: Loaded common.properties
-[23:48:38] [modloading-worker-0/INFO]: Loaded dev.properties
-[23:48:38] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
-[23:48:38] [modloading-worker-0/INFO]: Found plugin source kubejs
-[23:48:38] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
-[23:48:38] [modloading-worker-0/INFO]: Done in 20.11 ms
-[23:48:38] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
-[23:48:38] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
-[23:48:39] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
-[23:48:39] [modloading-worker-0/INFO]: Rhino properties loaded.
-[23:48:39] [modloading-worker-0/INFO]: Loading mappings for 1.20.1
-[23:48:39] [modloading-worker-0/INFO]: Done in 0.070 s
-[23:48:39] [modloading-worker-0/INFO]: Loaded script startup_scripts:startup.js in 0.067 s
-[23:48:39] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS startup scripts in 0.402 s with 0 errors and 0 warnings
-[23:48:39] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded client scripts)
-[23:48:39] [modloading-worker-0/INFO]: Loaded script client_scripts:example.js in 0.001 s
-[23:48:39] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS client scripts in 0.022 s with 0 errors and 0 warnings
-[23:48:39] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
-[23:48:39] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:toast
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:reload_startup_scripts
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_server_errors
-[23:48:39] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_client_errors
-[23:48:39] [Render thread/INFO]: Capturing existing worldgen registries
-[23:48:39] [Render thread/INFO]: Found 0 injected RegistryDataLoader worldgen registries
-[23:48:40] [Render thread/INFO]: ARRP register - before user
-[23:48:41] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[23:48:41] [Render thread/INFO]: Invalidating pack caches
-[23:48:41] [Render thread/INFO]: Reloading ResourceManager: mod_resources, vanilla, fabric, KubeJS Resource Pack [assets]
-[23:48:41] [Render thread/INFO]: closing rrp ebe:base_resources
-[23:48:41] [Render thread/INFO]: ARRP register - before vanilla
-[23:48:41] [Render thread/INFO]: ARRP register - after vanilla
-[23:48:41] [Forge Version Check/INFO]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
-[23:48:41] [Worker-ResourceReload-13/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[23:48:41] [Render thread/INFO]: Client resource reload complete!
-[23:48:42] [Worker-ResourceReload-10/INFO]: Early baking 180 models
-[23:48:42] [Forge Version Check/INFO]: [saturn] Found status: AHEAD Current: 0.1.3 Target: null
-[23:48:42] [Forge Version Check/INFO]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
-[23:48:42] [Worker-ResourceReload-0/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33060735]
-[23:48:42] [Worker-ResourceReload-0/INFO]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[23:48:42] [Render thread/INFO]: Added resource packs: [mod_resources, vanilla, fabric]
-[23:48:42] [Forge Version Check/INFO]: [crafttweaker] Found status: BETA Current: 14.0.38 Target: 14.0.38
-[23:48:42] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23:48:42] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[23:48:42] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[23:48:42] [Render thread/INFO]: OpenAL initialized on device GA106 High Definition Audio Controller Digital Stereo (HDMI)
-[23:48:42] [Render thread/INFO]: Sound engine started
-[23:48:42] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 47.2.32 Target: null
-[23:48:42] [Forge Version Check/INFO]: [cloudsettings] Starting version check at https://api.modrinth.com/updates/nnu4dJj4/forge_updates.json
-[23:48:42] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[23:48:42] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[23:48:42] [Forge Version Check/INFO]: [cloudsettings] Found status: UP_TO_DATE Current: 2.0.0.7 Target: null
-[23:48:42] [Forge Version Check/INFO]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
-[23:48:43] [Forge Version Check/INFO]: [smoothboot] Found status: UP_TO_DATE Current: 0.0.4 Target: null
-[23:48:43] [Forge Version Check/INFO]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[23:48:43] [Render thread/INFO]: Dynamic entity renderer hook setup
-[23:48:43] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[23:48:43] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[23:48:43] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[23:48:43] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[23:48:43] [Forge Version Check/INFO]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[23:48:45] [Render thread/WARN]: Game took 18.446 seconds to start
-[23:48:45] [Worker-ResourceReload-14/WARN]: Method overwrite conflict for m_63084_ in ferritecore.threaddetec.mixin.json:PalettedContainerMixin from mod ferritecore, previously written by com.abdelaziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
-[23:48:45] [Worker-ResourceReload-14/WARN]: Method overwrite conflict for m_63120_ in ferritecore.threaddetec.mixin.json:PalettedContainerMixin from mod ferritecore, previously written by com.abdelaziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
-[23:48:45] [Worker-ResourceReload-14/WARN]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod canary, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
-[23:48:45] [Worker-ResourceReload-14/WARN]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[23:48:45] [Worker-ResourceReload-14/WARN]: Cleared mixin data structures
-[23:48:46] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[23:48:46] [Render thread/INFO]: ARRP register - before user
-[23:48:46] [Render thread/INFO]: ARRP register - before vanilla
-[23:48:46] [Render thread/INFO]: ARRP register - after vanilla
-[23:48:46] [Render thread/INFO]: ARRP register - before vanilla
-[23:48:46] [Render thread/INFO]: ARRP register - after vanilla
-[23:48:46] [Render thread/INFO]: server.js#5: Hello, World! (Loaded server scripts)
-[23:48:46] [Render thread/INFO]: Loaded script server_scripts:server.js in 0.0 s
-[23:48:46] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.014 s with 0 errors and 0 warnings
-[23:48:46] [Render thread/INFO]: Scripts loaded
-[23:48:47] [Render thread/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[23:48:47] [Render thread/INFO]: Loaded 7 recipes
-[23:48:47] [Render thread/INFO]: Loaded 1271 advancements
-[23:48:47] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
-[23:48:47] [Server thread/INFO]: Generating keypair
-[23:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:48:48] [Render thread/INFO]: Preparing spawn area: 0%
-[23:48:48] [Server thread/INFO]: Server resource reload complete!
-[23:48:48] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[23:48:48] [Render thread/INFO]: Time elapsed: 101 ms
-[23:48:48] [Server thread/INFO]: Instantiating Mojang DFU
-[23:48:48] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 116 milliseconds
-[23:48:49] [Server thread/INFO]: Changing view distance to 16, from 10
-[23:48:49] [Server thread/INFO]: Changing simulation distance to 16, from 0
-[23:48:49] [Render thread/WARN]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[23:48:49] [Netty Local Client IO #0/INFO]: Connected to a modded server.
-[23:48:49] [Server thread/INFO]: Sammy_any_all_[local:E:b5a5dfdf] logged in with entity id 1 at (47.15364234139255, -56.8729970736031, 6.072240255431397)
-[23:48:49] [Server thread/INFO]: Sammy_any_all_ joined the game
-[23:48:49] [Render thread/INFO]: Started 10 worker threads
-[23:48:50] [Render thread/INFO]: Loaded 98 advancements
-[23:48:50] [Render thread/WARN]: Time from main menu to in-game was 2.675408 seconds
-[23:48:50] [Render thread/WARN]: Total time to load game and open world was 21.121407 seconds
-[23:48:55] [Server thread/INFO]: [Not Secure] [Sammy_any_all_] I'm out!
-[23:48:55] [Render thread/INFO]: [System] [CHAT] [Sammy_any_all_] I'm out!
-[23:48:55] [Server thread/INFO]: Saving and pausing game...
-[23:48:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:48:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:48:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:49:31] [Server thread/INFO]: Saving and pausing game...
-[23:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:49:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:49:47] [Server thread/INFO]: [Not Secure] [Sammy_any_all_] Geez, when'd this place become such a dump?
-[23:49:47] [Render thread/INFO]: [System] [CHAT] [Sammy_any_all_] Geez, when'd this place become such a dump?
-[23:52:43] [Render thread/INFO]: [System] [CHAT] First position set to (44, -59, -8).
-[23:52:45] [Render thread/INFO]: [System] [CHAT] Second position set to (50, -54, -11) (168).
-[23:52:48] [Render thread/INFO]: [System] [CHAT] 168 blocks moved.
-[23:52:50] [Render thread/INFO]: [System] [CHAT] Saved screenshot as 2024-05-26_23.52.50.png
-[23:52:51] [Render thread/INFO]: [System] [CHAT] First position set to (50, -59, -10) (12).
-[23:52:52] [Render thread/INFO]: [System] [CHAT] Second position set to (44, -59, -7) (28).
-[23:52:56] [Render thread/INFO]: [System] [CHAT] Operation completed (28 blocks affected).
-[23:52:58] [Render thread/INFO]: [System] [CHAT] First position set to (44, -59, -8) (2).
-[23:52:59] [Render thread/INFO]: [System] [CHAT] Second position set to (44, -55, -10) (15).
-[23:52:59] [Render thread/INFO]: [System] [CHAT] Second position set to (44, -54, -10) (18).
-[23:53:00] [Render thread/INFO]: [System] [CHAT] Operation completed (18 blocks affected).
-[23:53:01] [Render thread/INFO]: [System] [CHAT] First position set to (44, -54, -8) (3).
-[23:53:01] [Render thread/INFO]: [System] [CHAT] Second position set to (50, -54, -10) (21).
-[23:53:02] [Render thread/INFO]: [System] [CHAT] Operation completed (21 blocks affected).
-[23:53:03] [Render thread/INFO]: [System] [CHAT] First position set to (50, -54, -9) (2).
-[23:53:04] [Render thread/INFO]: [System] [CHAT] Second position set to (50, -59, -8) (12).
-[23:53:04] [Render thread/INFO]: [System] [CHAT] Operation completed (12 blocks affected).
-[23:53:26] [Render thread/INFO]: [System] [CHAT] Selection cleared.
-[23:53:50] [Server thread/INFO]: Saving and pausing game...
-[23:53:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:53:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:53:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:54:08] [Render thread/INFO]: Stopping!
-[23:54:08] [Render thread/INFO]: [FastQuit] Disconnected "New World" from the client.
-[23:54:08] [Render thread/INFO]: Stopping worker threads
-[23:54:08] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
-[23:54:08] [Render thread/INFO]: [FastQuit] Waiting for "New World" to finish saving...
-[23:54:08] [Server thread/INFO]: Sammy_any_all_ lost connection: Disconnected
-[23:54:08] [Server thread/INFO]: Sammy_any_all_ left the game
-[23:54:08] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[23:54:08] [Server thread/INFO]: Stopping server
-[23:54:08] [Server thread/INFO]: Saving players
-[23:54:08] [Server thread/INFO]: Saving worlds
-[23:54:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:54:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:54:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:54:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[23:54:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:54:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:54:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:54:08] [Server thread/INFO]: closing rrp ebe:base_resources
-[23:54:08] [Server thread/INFO]: closing rrp ebe:base_resources
-[23:54:08] [Server thread/INFO]: [FastQuit] Finished saving "New World" (1s)
-[23:54:08] [Render thread/INFO]: closing rrp ebe:base_resources
+[12:42:07] [main/INFO]: ModLauncher running: args [--username, Sammy_any_all_, --version, 1.20.1, --gameDir, /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer, --assetsDir, /home/mainy/.local/share/atlauncher/assets, --assetIndex, 5, --uuid, 74dd7dbd496f477d83d5671d11deb666, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width=854, --height=480]
+[12:42:07] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Linux arch amd64 version 6.7.6-200.fsync.fc39.x86_64
+[12:42:07] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[12:42:08] [main/INFO]: Trying GL version 4.6
+[12:42:08] [main/INFO]: Requested GL version 4.6 got version 4.6
+[12:42:08] [main/INFO]: Mixin Transmogrifier is definitely up to no good...
+[12:42:08] [main/INFO]: crimes against java were committed
+[12:42:08] [main/INFO]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[12:42:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods/Connector-1.0.0-beta.41+1.20.1.jar%23171%23174!/ Service=ModLauncher Env=CLIENT
+[12:42:08] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 550.54.14, NVIDIA Corporation
+[12:42:08] [main/INFO]: Found mod file Connector-1.0.0-beta.41+1.20.1-mod.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorEarlyLocator@4d8126f
+[12:42:08] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file breaking_tools_drops_items-1.0.0.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file canary-mc1.20.1-0.3.3.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file cloth-config-11.1.118-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file CloudSettings-1.20.X-2.0.0.7-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file CraftTweaker-forge-1.20.1-14.0.38.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file CullLessLeaves-Reforged-1.20.1-1.0.5.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file ears-forge-1.19.4-1.4.6.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file embeddium-0.3.12+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file entityculling-forge-1.6.2-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file fabric-api-0.92.0+1.11.5+1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file FpsReducer2-forge-1.20-2.5.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file ImmediatelyFast-Forge-1.2.11+1.20.4.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.7.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file lazurite-1.0.4+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file modernfix-forge-5.15.0+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file saturn-mc1.20.1-0.1.3.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file smoothboot(reloaded)-mc1.20.1-0.0.4.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file worldedit-mod-7.2.15.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/INFO]: Found mod file WorldEditCUI-1.20+01.jar of type MOD with provider {mods folder locator at /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer/mods}
+[12:42:08] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.32/fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
+[12:42:08] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.32/javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[12:42:08] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.32/lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[12:42:08] [main/WARN]: Mod file /home/mainy/.local/share/atlauncher/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.32/mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[12:42:08] [main/INFO]: Found mod file fmlcore-1.20.1-47.2.32.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found mod file mclanguage-1.20.1-47.2.32.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found mod file forge-1.20.1-47.2.32-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@73ba6fe6
+[12:42:08] [main/INFO]: Found 47 dependencies adding them to mods collection
+[12:42:08] [main/INFO]: Found mod file fabric-dimensions-v1-2.1.54+8005d10d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-transfer-api-v1-3.3.4+b00938ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-game-rule-api-v1-1.0.40+683d4da877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-renderer-api-v1-3.2.1+1d29b44577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-api-base-0.4.31+ef105b4977.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-api-lookup-api-v1-1.6.36+67f9824077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-blockrenderlayer-v1-1.1.41+1d0da21e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-item-api-v1-2.1.28+6ba6353877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-model-loading-api-v1-1.0.3+6274ab9d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-block-api-v1-1.0.11+0e6cb7f777.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-rendering-fluids-v1-3.0.28+4ac5e37a77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-resource-conditions-api-v1-2.3.8+9ad825cd77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-screen-handler-api-v1-1.3.30+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-models-v0-0.4.2+7c3892a477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file Reflect-1.3.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-resource-loader-v0-0.11.10+bcd08ed377.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-rendering-v1-3.0.8+1c0ea72177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-renderer-indigo-1.5.1+67f9824077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-item-group-api-v1-4.0.12+c9161c2d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-convention-tags-v1-1.5.5+fa3d1c0177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-command-api-v1-1.2.34+f71b366f77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-mining-level-api-v1-2.1.50+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-block-view-api-v2-1.0.1+0767707077.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-command-api-v2-2.2.13+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-data-attachment-api-v1-1.0.0+30ef839e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file mixinextras-forge-0.3.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-biome-api-v1-13.0.13+dd0389a577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-entity-events-v1-1.6.0+6274ab9d77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-registry-sync-v0-2.3.3+1c0ea72177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-recipe-api-v1-1.0.21+514a076577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-loot-api-v2-1.2.1+eb28f93e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-object-builder-api-v1-11.1.3+2174fc8477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-screen-api-v1-2.0.8+45a670a577.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-rendering-data-attachment-v1-0.3.37+a6081afc77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-networking-api-v1-1.3.11+503a202477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file Connector-1.0.0-beta.41+1.20.1-fabricloader.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-sound-api-v1-1.0.13+4f23bd8477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-particles-v1-1.1.2+78e1ecb877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file MixinExtras-0.3.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-message-api-v1-5.1.9+52cc178c77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-content-registries-v0-4.0.11+a670df1e77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-transitive-access-wideners-v1-4.3.1+1880499877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-lifecycle-events-v1-2.2.22+afab492177.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-data-generation-api-v1-12.3.4+369cb3a477.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-events-interaction-v0-0.6.2+0d0bd5a777.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-key-binding-api-v1-1.0.37+561530ec77.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Found mod file fabric-client-tags-api-v1-1.1.2+5d6761b877.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@72456279
+[12:42:08] [main/INFO]: Dependency resolution found 5 candidates to load
+[12:42:09] [main/INFO]: Found mod file fastquit-3.0.0+1.20+$MixinExtras-0.1.1_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@2f0ed952
+[12:42:09] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20$arrp-0.6.7_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@2f0ed952
+[12:42:09] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@2f0ed952
+[12:42:09] [main/INFO]: Found mod file fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@2f0ed952
+[12:42:09] [main/INFO]: Found mod file enhancedblockentities-0.9+1.20$spruceui-5.0.0+1.20_mapped_srg_1.20.1.jar of type MOD with provider dev.su5ed.sinytra.connector.locator.ConnectorLocator@2f0ed952
+[12:42:09] [main/INFO]: Successfully made module authlib transformable
+[12:42:09] [main/INFO]: Compatibility level set to JAVA_17
+[12:42:10] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/mainy/.local/share/atlauncher/instances/TheBreakingEngineer, --assetsDir, /home/mainy/.local/share/atlauncher/assets, --uuid, 74dd7dbd496f477d83d5671d11deb666, --username, Sammy_any_all_, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width=854, --height=480]
+[12:42:10] [main/INFO]: Loaded Saturn config file with 4 configurable options
+[12:42:10] [main/INFO]: Loaded configuration file for ModernFix 5.15.0+mc1.20.1: 77 options available, 7 override(s) found
+[12:42:10] [main/WARN]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.perf.clear_mixin_classinfo' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.perf.remove_spawn_chunks' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.bugfix.packet_leak' overriden (by user configuration) to 'true'
+[12:42:10] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[12:42:10] [main/INFO]: Applying Nashorn fix
+[12:42:10] [main/INFO]: Applied Forge config corruption patch
+[12:42:10] [main/INFO]: OptiFine was NOT detected.
+[12:42:10] [main/INFO]: OptiFabric was NOT detected.
+[12:42:10] [main/INFO]: Loaded configuration file for Embeddium: 118 options available, 0 override(s) found
+[12:42:10] [main/INFO]: Searching for graphics cards...
+[12:42:10] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=GA106 [GeForce RTX 3060 Lite Hash Rate], version=550.54.14]
+[12:42:10] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[12:42:10] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[12:42:10] [main/INFO]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[12:42:11] [main/INFO]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
+[12:42:11] [main/INFO]: bre2el.fpsreducer.mixin.WindowMixin will NOT be applied because OptiFine was NOT detected.
+[12:42:11] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[12:42:11] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[12:42:11] [main/WARN]: Opt-in mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is enabled by config
+[12:42:11] [main/INFO]: I used the json to destroy the json
+[12:42:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[12:42:12] [main/INFO]: Smooth Boot (Reloaded) config initialized
+[12:42:12] [main/WARN]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[12:42:12] [pool-4-thread-1/INFO]: ModernFix reached bootstrap stage (6.264 s after launch)
+[12:42:12] [pool-4-thread-1/WARN]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[12:42:12] [pool-4-thread-1/WARN]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[12:42:12] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[12:42:12] [pool-4-thread-1/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[12:42:13] [pool-4-thread-1/INFO]: Vanilla bootstrap took 763 milliseconds
+[12:42:14] [pool-4-thread-1/WARN]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
+[12:42:15] [Render thread/WARN]: Assets URL 'union:/home/mainy/.local/share/atlauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23200!/assets/.mcassetsroot' uses unexpected schema
+[12:42:15] [Render thread/WARN]: Assets URL 'union:/home/mainy/.local/share/atlauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23200!/data/.mcassetsroot' uses unexpected schema
+[12:42:15] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:42:15] [Render thread/INFO]: Setting user: Sammy_any_all_
+[12:42:15] [Render thread/INFO]: Bypassed Mojang DFU
+[12:42:15] [Render thread/INFO]: [FastQuit] Initialized
+[12:42:15] [Render thread/INFO]: Requesting User Data
+[12:42:15] [pool-8-thread-1/INFO]: Starting Login...
+[12:42:15] [pool-8-thread-1/INFO]: Requesting Server Id
+[12:42:16] [pool-8-thread-1/INFO]: Requested Server Id
+[12:42:16] [pool-8-thread-1/INFO]: Resolved Server Id
+[12:42:16] [pool-8-thread-1/INFO]: Login in into Mojang Session Server
+[12:42:16] [pool-8-thread-1/INFO]: Logged in into Mojang Session Server
+[12:42:16] [pool-8-thread-1/INFO]: Requesting Session Token
+[12:42:16] [pool-8-thread-1/INFO]: Requested Session Token
+[12:42:16] [pool-8-thread-1/INFO]: Resolved Session Token
+[12:42:16] [pool-8-thread-1/INFO]: Login Successful
+[12:42:16] [Render thread/INFO]: Got 115 options from Cloud
+[12:42:16] [Render thread/INFO]: Got 0 changes to sync
+[12:42:17] [Render thread/INFO]: Added resource packs: [mod_resources, vanilla, fabric]
+[12:42:17] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[12:42:17] [Render thread/INFO]: Loaded client.properties
+[12:42:17] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[12:42:17] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[12:42:17] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[12:42:17] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 550.54.14
+[12:42:17] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.11+1.20.4 on NVIDIA GeForce RTX 3060/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 550.54.14
+[12:42:17] [Render thread/INFO]: ARRP register - before vanilla
+[12:42:17] [Render thread/INFO]: ARRP register - after vanilla
+[12:42:17] [modloading-worker-0/INFO]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[12:42:17] [modloading-worker-0/INFO]: MinecraftForge v47.2.32 Initialized
+[12:42:17] [modloading-worker-0/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[12:42:17] [modloading-worker-0/INFO]: Loaded common.properties
+[12:42:17] [modloading-worker-0/INFO]: Loaded dev.properties
+[12:42:17] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
+[12:42:17] [modloading-worker-0/INFO]: Found plugin source kubejs
+[12:42:17] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[12:42:17] [modloading-worker-0/INFO]: Done in 17.39 ms
+[12:42:17] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
+[12:42:17] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
+[12:42:17] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
+[12:42:17] [modloading-worker-0/INFO]: Rhino properties loaded.
+[12:42:17] [modloading-worker-0/INFO]: Loading mappings for 1.20.1
+[12:42:17] [modloading-worker-0/INFO]: Done in 0.079 s
+[12:42:18] [modloading-worker-0/INFO]: Loaded script startup_scripts:startup.js in 0.065 s
+[12:42:18] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS startup scripts in 0.335 s with 0 errors and 0 warnings
+[12:42:18] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded client scripts)
+[12:42:18] [modloading-worker-0/INFO]: Loaded script client_scripts:example.js in 0.001 s
+[12:42:18] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS client scripts in 0.023 s with 0 errors and 0 warnings
+[12:42:18] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[12:42:18] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:toast
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_server_errors
+[12:42:18] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_client_errors
+[12:42:18] [Render thread/INFO]: Capturing existing worldgen registries
+[12:42:18] [Render thread/INFO]: Found 0 injected RegistryDataLoader worldgen registries
+[12:42:19] [Render thread/INFO]: ARRP register - before user
+[12:42:19] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[12:42:20] [Render thread/INFO]: Invalidating pack caches
+[12:42:20] [Render thread/INFO]: Reloading ResourceManager: mod_resources, vanilla, fabric, KubeJS Resource Pack [assets]
+[12:42:20] [Render thread/INFO]: closing rrp ebe:base_resources
+[12:42:20] [Render thread/INFO]: ARRP register - before vanilla
+[12:42:20] [Render thread/INFO]: ARRP register - after vanilla
+[12:42:20] [Forge Version Check/INFO]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[12:42:20] [Worker-ResourceReload-10/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12:42:20] [Render thread/INFO]: Client resource reload complete!
+[12:42:20] [Worker-ResourceReload-8/INFO]: Early baking 180 models
+[12:42:20] [Forge Version Check/INFO]: [saturn] Found status: AHEAD Current: 0.1.3 Target: null
+[12:42:20] [Forge Version Check/INFO]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[12:42:20] [Worker-ResourceReload-4/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@298a4090]
+[12:42:20] [Worker-ResourceReload-4/INFO]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[12:42:21] [Forge Version Check/INFO]: [crafttweaker] Found status: BETA_OUTDATED Current: 14.0.38 Target: 14.0.40
+[12:42:21] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12:42:21] [Render thread/INFO]: Added resource packs: [mod_resources, vanilla, fabric]
+[12:42:21] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:42:21] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:42:21] [Render thread/INFO]: OpenAL initialized on device WH-XB900N
+[12:42:21] [Render thread/INFO]: Sound engine started
+[12:42:21] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 47.2.32 Target: null
+[12:42:21] [Forge Version Check/INFO]: [cloudsettings] Starting version check at https://api.modrinth.com/updates/nnu4dJj4/forge_updates.json
+[12:42:21] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:42:21] [Forge Version Check/INFO]: [cloudsettings] Found status: UP_TO_DATE Current: 2.0.0.7 Target: null
+[12:42:21] [Forge Version Check/INFO]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
+[12:42:21] [Forge Version Check/INFO]: [smoothboot] Found status: UP_TO_DATE Current: 0.0.4 Target: null
+[12:42:21] [Forge Version Check/INFO]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[12:42:21] [Render thread/INFO]: Dynamic entity renderer hook setup
+[12:42:21] [Forge Version Check/INFO]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[12:42:21] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:42:21] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:42:21] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:42:23] [Render thread/WARN]: Game took 17.526 seconds to start
+[12:42:23] [Worker-ResourceReload-11/WARN]: Method overwrite conflict for m_63084_ in ferritecore.threaddetec.mixin.json:PalettedContainerMixin from mod ferritecore, previously written by com.abdelaziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
+[12:42:23] [Worker-ResourceReload-11/WARN]: Method overwrite conflict for m_63120_ in ferritecore.threaddetec.mixin.json:PalettedContainerMixin from mod ferritecore, previously written by com.abdelaziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
+[12:42:24] [Worker-ResourceReload-11/WARN]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod canary, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[12:42:24] [Worker-ResourceReload-11/WARN]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[12:42:24] [Worker-ResourceReload-11/WARN]: Cleared mixin data structures
+[12:42:26] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[12:42:26] [Render thread/INFO]: ARRP register - before user
+[12:42:26] [Render thread/INFO]: ARRP register - before vanilla
+[12:42:26] [Render thread/INFO]: ARRP register - after vanilla
+[12:42:26] [Render thread/INFO]: ARRP register - before vanilla
+[12:42:26] [Render thread/INFO]: ARRP register - after vanilla
+[12:42:26] [Render thread/INFO]: server.js#5: Hello, World! (Loaded server scripts)
+[12:42:26] [Render thread/INFO]: Loaded script server_scripts:server.js in 0.001 s
+[12:42:26] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[12:42:26] [Render thread/INFO]: Scripts loaded
+[12:42:27] [Render thread/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[12:42:27] [Render thread/INFO]: Loaded 7 recipes
+[12:42:27] [Render thread/INFO]: Loaded 1271 advancements
+[12:42:28] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[12:42:28] [Server thread/INFO]: Generating keypair
+[12:42:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:42:28] [Render thread/INFO]: Preparing spawn area: 0%
+[12:42:28] [Server thread/INFO]: Server resource reload complete!
+[12:42:28] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[12:42:28] [Render thread/INFO]: Time elapsed: 101 ms
+[12:42:28] [Server thread/INFO]: Instantiating Mojang DFU
+[12:42:29] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 112 milliseconds
+[12:42:29] [Server thread/INFO]: Changing view distance to 16, from 10
+[12:42:29] [Server thread/INFO]: Changing simulation distance to 16, from 0
+[12:42:29] [Render thread/WARN]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[12:42:30] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[12:42:30] [Server thread/INFO]: Sammy_any_all_[local:E:8526058b] logged in with entity id 1 at (47.86542362988987, -22.333225062869513, -18.69999998807907)
+[12:42:30] [Server thread/INFO]: Sammy_any_all_ joined the game
+[12:42:30] [Render thread/INFO]: Started 10 worker threads
+[12:42:30] [Render thread/INFO]: Loaded 98 advancements
+[12:42:33] [Server thread/INFO]: Saving and pausing game...
+[12:42:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:42:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:42:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:42:38] [Render thread/WARN]: Time from main menu to in-game was 10.160784 seconds
+[12:42:38] [Render thread/WARN]: Total time to load game and open world was 27.686783 seconds
+[12:42:57] [Server thread/INFO]: Saving and pausing game...
+[12:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:44:32] [Server thread/INFO]: Saving and pausing game...
+[12:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:44:55] [Render thread/INFO]: [System] [CHAT] Second position set to (52, -44, -84).
+[12:44:58] [Render thread/INFO]: [System] [CHAT] Second position set to (62, -38, -94).
+[12:45:04] [Render thread/INFO]: [System] [CHAT] First position set to (52, -44, -84) (847).
+[12:45:10] [Render thread/INFO]: [System] [CHAT] 847 blocks affected
+[12:45:10] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[12:45:10] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[12:45:18] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (47, -23, -20)
+[12:45:18] [Render thread/INFO]: [System] [CHAT] 847 blocks affected
+[12:45:18] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[12:45:18] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[12:45:24] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (56, -23, -20)
+[12:45:24] [Render thread/INFO]: [System] [CHAT] 847 blocks affected
+[12:45:24] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[12:45:24] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[12:45:26] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[12:45:34] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (47, -23, -31)
+[12:45:34] [Render thread/INFO]: [System] [CHAT] 847 blocks affected
+[12:45:34] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[12:45:34] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[12:45:38] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[12:45:52] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[12:46:06] [Server thread/INFO]: Saving and pausing game...
+[12:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:46:10] [Render thread/INFO]: Stopping!
+[12:46:10] [Render thread/INFO]: [FastQuit] Disconnected "New World" from the client.
+[12:46:10] [Render thread/INFO]: Stopping worker threads
+[12:46:10] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
+[12:46:10] [Render thread/INFO]: [FastQuit] Waiting for "New World" to finish saving...
+[12:46:10] [Server thread/INFO]: Sammy_any_all_ lost connection: Disconnected
+[12:46:10] [Server thread/INFO]: Sammy_any_all_ left the game
+[12:46:10] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:46:10] [Server thread/INFO]: Stopping server
+[12:46:10] [Server thread/INFO]: Saving players
+[12:46:10] [Server thread/INFO]: Saving worlds
+[12:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[12:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:46:10] [Server thread/INFO]: closing rrp ebe:base_resources
+[12:46:10] [Server thread/INFO]: closing rrp ebe:base_resources
+[12:46:10] [Server thread/INFO]: [FastQuit] Finished saving "New World" (0s)
+[12:46:10] [Render thread/INFO]: closing rrp ebe:base_resources
