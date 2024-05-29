@@ -15,14 +15,14 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
 	var stack = event.itemStack;
 
 	if (block == <block:kubejs:shovel>) {
+		player.swing(event.hand);
 		level.setBlockAndUpdate(blockPos, <blockstate:minecraft:air>);
 		player.addItem(<item:minecraft:wooden_shovel>.withTag({
-			CanDestroy:["minecraft:gravel"],display:{Name:'{"text":"Electronic Shovel","italic":false}',Lore:['{"text":"\\"A normal shovel equipped with various technologies. Has various features like being expensive, fragile, inoperable unless signed in & so much more!!\\"","color":"gray","bold":false,"italic":false}','{"text":"Could be used for parts.","color":"gold","bold":true,"italic":false}']},HideFlags:10,Damage:43
+			CanDestroy:["minecraft:gravel"],display:{Name:'{"text":"Electronic Shovel","italic":false}',Lore:['{"text":"\\"A normal shovel equipped with various technologies. Has various features like being expensive, fragile, inoperable unless signed in & so much more.\\"","color":"gray","bold":false,"italic":false}','{"text":"Can be used for parts.","color":"gold","bold":true,"italic":false}']},HideFlags:10,Damage:43
 		}));
 		if (level is ServerLevel) {
 			(level as ServerLevel).server.executeCommand("function the_breaking_engineer:delayed_dialogue/storage_room/get_shovel", true);
 		}
-		player.swing(event.hand);
 	} else if (block == <block:minecraft:iron_trapdoor> && stack == <item:kubejs:electronic_parts>) {
 		player.swing(event.hand);
 		player.inventory.removeItem(stack);
@@ -35,6 +35,15 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
 				serverLevel.server.executeCommand("schedule function the_breaking_engineer:delayed_dialogue/storage_room/escape_3 4s", true);
 				serverLevel.server.executeCommand("schedule function the_breaking_engineer:delayed_dialogue/storage_room/escape_4 8s", true);
 			}
+		}
+	} else if (block == <block:kubejs:tablet>) {
+		player.swing(event.hand);
+		level.setBlockAndUpdate(blockPos, <blockstate:minecraft:air>);
+		player.addItem(<item:kubejs:tablet>.withTag({
+			CanDestroy:["kubejs:machine"],display:{Lore:['{"text":"My boss\'s tablet. It should have his id card inside. I hope he won\'t be too mad if I smash this thing to pieces... or I could just not tell him.","color":"gray","bold":false,"italic":false}','{"text":"Can be used for parts.","color":"gold","bold":true,"italic":false}']},HideFlags:10
+		}));
+		if (level is ServerLevel) {
+			(level as ServerLevel).server.executeCommand("function the_breaking_engineer:delayed_dialogue/big_room/get_tablet", true);
 		}
 	}
 	// No, lmao

@@ -1,7 +1,15 @@
 {
-	"item_drops": {
-		"minecraft:wooden_shovel": {
+	"minecraft:wooden_shovel": {
+		"drops": {
 			"kubejs:electronic_parts": 1
 		}
+	},
+	"kubejs:tablet": {
+		"drops": {
+			"kubejs:bosss_id_card": 1
+		},
+		"commands": [
+			 "function the_breaking_engineer:delayed_dialogue/big_room/break_tablet"
+		]
 	}
 }
