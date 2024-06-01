@@ -22,5 +22,5 @@ StartupEvents.registry(`item`, (event) => {
 	event.create(`bosss_id_card`)
 		.displayName(`Boss's ID Card`)
 	event.create(`energy_fairy`)
-		.maxDamage(10)
+		.maxDamage(200)
 })
