@@ -1,6 +1,4 @@
-// priority: 0
-
-// Visit the wiki for more info - https://kubejs.com/
-
-console.info('Hello, World! (Loaded server scripts)')
-
+ServerEvents.tags(`item`, event => {
+	event.add(`breaking_tools_drops_items:higher_tier_card`, `kubejs:bosss_id_card`)
+	event.add(`breaking_tools_drops_items:repairs_panel`, `kubejs:electronic_parts`)
+})

@@ -6,6 +6,12 @@ StartupEvents.registry(`block`, (event) => {
 		.noItem()
 	event.create(`machine`)
 		.tagBlock(`mineable/pickaxe`)
+	event.create(`energy_fairy`)
+		.lightLevel(1.0)
+		.noItem()
+	event.create(`active_zapper`)
+		.lightLevel(0.4)
+	event.create(`inactive_zapper`)
 })
 
 StartupEvents.registry(`item`, (event) => {
@@ -15,4 +21,6 @@ StartupEvents.registry(`item`, (event) => {
 		.maxDamage(14)
 	event.create(`bosss_id_card`)
 		.displayName(`Boss's ID Card`)
+	event.create(`energy_fairy`)
+		.maxDamage(10)
 })

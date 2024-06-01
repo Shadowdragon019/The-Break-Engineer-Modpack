@@ -1,0 +1,2 @@
+function the_breaking_engineer:delayed_dialogue/energy_control_room/see_energy_fairy
+setblock 47 -9 -170 minecraft:green_terracotta
