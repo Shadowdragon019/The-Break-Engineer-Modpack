@@ -597,3 +597,7 @@
 [10:53:11] [Server thread/INFO]: [Not Secure] [Sammy_any_all_] Whew, it's over.
 [10:53:11] [Render thread/INFO]: [System] [CHAT] [Sammy_any_all_] Whew, it's over.
 [10:53:12] [Render thread/INFO]: [System] [CHAT] [Sammy] Thank you for playing my pack!!! This is the end :3
+[10:54:43] [Server thread/INFO]: Saving and pausing game...
+[10:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
