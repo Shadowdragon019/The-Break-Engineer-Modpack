@@ -19,6 +19,12 @@ StartupEvents.registry(`block`, (event) => {
 	event.create(`active_zapper`)
 		.lightLevel(0.4)
 	event.create(`inactive_zapper`)
+
+	// Building blocks!
+	event.create(`concrete_block`)
+		.soundType(`stone`)
+	event.create(`concrete_brick`)
+		.soundType(`stone`)
 })
 
 StartupEvents.registry(`item`, (event) => {

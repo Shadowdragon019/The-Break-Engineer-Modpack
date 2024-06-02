@@ -1,25 +1,25 @@
-[12:23:29.757][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
-[12:23:29.765][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[12:23:29.810][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[12:23:29.811][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[12:23:30.212][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[12:23:30.213][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.38'
-[12:23:32.550][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[12:23:33.115][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[12:23:33.147][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[12:23:33.221][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[12:23:48.290][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[12:23:48.317][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[12:23:48.335][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[12:23:48.346][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[12:23:48.460][INFO][CraftTweaker]: CraftTweaker reload starting!
-[12:23:48.463][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[12:23:48.478][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[12:23:48.730][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[12:23:48.730][INFO][CraftTweaker-ZenCode]: Loading file 'event.zs' with priority 0
-[12:23:48.739][INFO][CraftTweaker-ZenCode]: Loading file 'globals.zs' with priority 0
-[12:23:48.785][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.entity.player.PlayerInteractEvent$RightClickBlock
-[12:23:48.787][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.TickEvent$PlayerTickEvent
-[12:23:48.788][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[12:23:48.789][INFO][CraftTweaker]: CraftTweaker reload complete!
-[12:23:48.789][INFO][CraftTweaker]: This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:54:20.635][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[12:54:20.665][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[12:54:20.705][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[12:54:20.709][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[12:54:21.008][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[12:54:21.009][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.38'
+[12:54:23.523][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[12:54:24.151][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:54:24.188][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[12:54:24.273][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[12:54:39.868][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[12:54:39.896][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:54:39.913][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[12:54:39.926][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[12:54:40.080][INFO][CraftTweaker]: CraftTweaker reload starting!
+[12:54:40.082][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[12:54:40.101][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:54:40.446][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[12:54:40.447][INFO][CraftTweaker-ZenCode]: Loading file 'event.zs' with priority 0
+[12:54:40.459][INFO][CraftTweaker-ZenCode]: Loading file 'globals.zs' with priority 0
+[12:54:40.523][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.entity.player.PlayerInteractEvent$RightClickBlock
+[12:54:40.526][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.TickEvent$PlayerTickEvent
+[12:54:40.527][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[12:54:40.529][INFO][CraftTweaker]: CraftTweaker reload complete!
+[12:54:40.529][INFO][CraftTweaker]: This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
