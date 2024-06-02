@@ -419,3 +419,25 @@
 [22:21:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [22:21:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
 [22:21:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:28:35] [Render thread/INFO]: Stopping!
+[22:28:35] [Render thread/INFO]: [FastQuit] Disconnected "New World" from the client.
+[22:28:35] [Render thread/INFO]: Stopping worker threads
+[22:28:35] [Server thread/INFO]: Sammy_any_all_ lost connection: Disconnected
+[22:28:35] [Server thread/INFO]: Sammy_any_all_ left the game
+[22:28:35] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
+[22:28:35] [Render thread/INFO]: [FastQuit] Waiting for "New World" to finish saving...
+[22:28:35] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:28:35] [Server thread/INFO]: Stopping server
+[22:28:35] [Server thread/INFO]: Saving players
+[22:28:35] [Server thread/INFO]: Saving worlds
+[22:28:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:28:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:28:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:28:35] [Server thread/INFO]: closing rrp ebe:base_resources
+[22:28:35] [Server thread/INFO]: closing rrp ebe:base_resources
+[22:28:35] [Server thread/INFO]: [FastQuit] Finished saving "New World" (0s)
+[22:28:35] [Render thread/INFO]: closing rrp ebe:base_resources
