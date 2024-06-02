@@ -36,21 +36,21 @@ setblock 45 -57 2 breaking_tools_drops_items:panel[facing=south,panel_state=brok
 ## Left
 setblock 23 -22 -38 breaking_tools_drops_items:panel[facing=east,panel_state=broken]
 fill 22 -23 -39 22 -21 -41 minecraft:iron_block
-setblock 9 -22 -26 breaking_tools_drops_items:panel[facing=north,panel_state=broken]
-fill 8 -23 -25 6 -21 -25 minecraft:iron_block
-setblock -7 -22 -38 breaking_tools_drops_items:panel[facing=east,panel_state=broken]
-fill -8 -23 -39 -8 -21 -41 minecraft:iron_block
-setblock 5 -22 -54 breaking_tools_drops_items:panel[facing=south,panel_state=broken]
-fill 6 -23 -55 8 -21 -55 minecraft:iron_block
+#setblock 9 -22 -26 breaking_tools_drops_items:panel[facing=north,panel_state=broken]
+#fill 8 -23 -25 6 -21 -25 minecraft:iron_block
+#setblock -7 -22 -38 breaking_tools_drops_items:panel[facing=east,panel_state=broken]
+#fill -8 -23 -39 -8 -21 -41 minecraft:iron_block
+#setblock 5 -22 -54 breaking_tools_drops_items:panel[facing=south,panel_state=broken]
+#fill 6 -23 -55 8 -21 -55 minecraft:iron_block
 ## Right
 setblock 71 -22 -42 breaking_tools_drops_items:panel[facing=west,panel_state=broken]
 fill 72 -23 -41 72 -21 -39 minecraft:iron_block
-setblock 85 -22 -54 breaking_tools_drops_items:panel[facing=south,panel_state=broken]
-fill 86 -23 -55 88 -21 -55 minecraft:iron_block
-setblock 101 -22 -42 breaking_tools_drops_items:panel[facing=west,panel_state=broken]
-fill 102 -23 -41 102 -21 -39 minecraft:iron_block
-setblock 89 -22 -26 breaking_tools_drops_items:panel[facing=north,panel_state=broken]
-fill 88 -23 -25 86 -21 -25 minecraft:iron_block
+#setblock 85 -22 -54 breaking_tools_drops_items:panel[facing=south,panel_state=broken]
+#fill 86 -23 -55 88 -21 -55 minecraft:iron_block
+#setblock 101 -22 -42 breaking_tools_drops_items:panel[facing=west,panel_state=broken]
+#fill 102 -23 -41 102 -21 -39 minecraft:iron_block
+#setblock 89 -22 -26 breaking_tools_drops_items:panel[facing=north,panel_state=broken]
+#fill 88 -23 -25 86 -21 -25 minecraft:iron_block
 ## Hallway
 setblock 45 -22 -64 breaking_tools_drops_items:panel[facing=south,panel_state=broken]
 fill 46 -23 -65 48 -21 -65 minecraft:iron_block
