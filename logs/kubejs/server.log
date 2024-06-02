@@ -1,10 +1,10 @@
-[23:36:00] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
-[23:36:00] [INIT] Loaded plugins:
-[23:36:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[23:36:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[23:36:00] [INFO] Loaded script server_scripts:server.js in 0.0 s
-[23:36:00] [INFO] Loaded 1/1 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
-[23:36:00] [INFO] Scripts loaded
-[23:36:01] [INFO] [minecraft:item] Found 382 tags, added 2 objects, removed 0 objects
-[23:36:01] [INFO] [minecraft:block] Found 309 tags, added 1 objects, removed 0 objects
-[23:36:02] [INFO] Server resource reload complete!
+[10:53:01] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[10:53:01] [INIT] Loaded plugins:
+[10:53:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:53:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:53:01] [INFO] Loaded script server_scripts:server.js in 0.001 s
+[10:53:01] [INFO] Loaded 1/1 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[10:53:01] [INFO] Scripts loaded
+[10:53:01] [INFO] [minecraft:item] Found 382 tags, added 2 objects, removed 0 objects
+[10:53:01] [INFO] [minecraft:block] Found 309 tags, added 1 objects, removed 0 objects
+[10:53:01] [INFO] Server resource reload complete!

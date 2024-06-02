@@ -21,6 +21,7 @@ StartupEvents.registry(`block`, (event) => {
 
 StartupEvents.registry(`item`, (event) => {
 	event.create(`electronic_parts`)
+		.displayName(`Circuit Board`)
 	event.create(`tablet`, `pickaxe`)
 		.tier(`wood`)
 		.maxDamage(4)
