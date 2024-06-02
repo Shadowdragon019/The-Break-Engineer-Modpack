@@ -18,7 +18,7 @@ StartupEvents.registry(`item`, (event) => {
 	event.create(`electronic_parts`)
 	event.create(`tablet`, `pickaxe`)
 		.tier(`wood`)
-		.maxDamage(14)
+		.maxDamage(7)
 	event.create(`bosss_id_card`)
 		.displayName(`Boss's ID Card`)
 	event.create(`energy_fairy`)

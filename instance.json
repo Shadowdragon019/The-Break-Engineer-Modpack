@@ -5230,22 +5230,745 @@
         }
       },
       {
-        "name": "breaking_tools_drops_items-1.0.0.jar",
+        "name": "Game Stages",
+        "version": "GameStages-Forge-1.20.1-15.0.1",
+        "optional": true,
+        "file": "GameStages-Forge-1.20.1-15.0.1.jar",
+        "type": "mods",
+        "description": "An API for adding stages, for modpacks and other mods to use!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 268655,
+        "curseForgeFileId": 4648424,
+        "curseForgeProject": {
+          "id": 268655,
+          "name": "Game Stages",
+          "authors": [
+            {
+              "id": 6968547,
+              "name": "DarkhaxDev",
+              "url": "https://www.curseforge.com/members/darkhaxdev"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An API for adding stages, for modpacks and other mods to use!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "game-stages",
+          "isFeatured": false,
+          "dateModified": "2024-03-10T09:46:26.063Z",
+          "dateCreated": "2017-05-28T23:04:54.603Z",
+          "dateReleased": "2024-03-10T09:38:06.17Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/game-stages",
+            "wikiUrl": "https://github.com/Darkhax-Minecraft/Game-Stages/wiki",
+            "issuesUrl": "https://github.com/Darkhax-Minecraft/Game-Stages/issues",
+            "sourceUrl": "https://github.com/Darkhax-Minecraft/Game-Stages"
+          },
+          "logo": {
+            "id": 208210,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/208/210/256/256/636972859205299350.png",
+            "title": "636972859205299350.png",
+            "url": "https://media.forgecdn.net/avatars/208/210/636972859205299350.png",
+            "modId": 268655
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4396244
+        },
+        "curseForgeFile": {
+          "id": 4648424,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "GameStages-Forge-1.20.1-15.0.1.jar",
+          "fileName": "GameStages-Forge-1.20.1-15.0.1.jar",
+          "releaseType": 3,
+          "fileStatus": 4,
+          "fileDate": "2023-07-16T23:56:05.803Z",
+          "fileLength": 65116,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 228525,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2540869970,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3766834493,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3615909690,
+              "name": "mod_logo.png"
+            },
+            {
+              "fingerprint": 3466730601,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3666207469,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f261ef0f241a2f1a50602437bca25f3d591fcd25",
+              "algo": 1
+            },
+            {
+              "value": "eab249533a6ef47a9fbd59aeb26f5c12",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2943020948,
+          "modId": 268655
+        },
+        "modrinthProject": {
+          "id": "iAlZk5aS",
+          "slug": "game-stages",
+          "project_type": "mod",
+          "team": "32MSEYzB",
+          "title": "Game Stages",
+          "description": "An API for adding stages, for modpacks and other mods to use!",
+          "body": "<p>This mod provides a framework for creating progression systems in modpacks. These progression systems are based on stages which are player specific flags used to track their progress. Using other mods and addons you can configure the game to react differently to a player depending on the stages they have unlocked. While the term stage may imply a linear progression they can be used for virtually all types of progression systems. Some common examples of this include using stages for RPG classes and skills, Pack modes (expert, hardcore, easy), and branching quests.</p>\n\n<p>For specific information on how to use GameStages, please refer to the GitHub page that matches with the version of the mod you are using. You can also join my <a href=\"https://discord.darkhax.net\" rel=\"nofollow\">Discord</a> server for help and further discussion. You can find a list of all mods that support GameStages <a href=\"https://legacy.curseforge.com/minecraft/mc-mods/game-stages/relations/dependents?filter-related-dependents=3\" rel=\"nofollow\">here.</a></p>\n\n[![Nodecraft sponsor banner](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)\n\n**This project is sponsored by Nodecraft. Use code [DARKHAX](https://nodecraft.com/r/darkhax) for 30% off your first month of service!**",
+          "published": "2023-06-07T06:42:12.770089Z",
+          "updated": "2024-01-12T20:37:27.565081Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-2.1-only",
+            "name": "GNU Lesser General Public License v2.1 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/iAlZk5aS/5261fff0e7a5ef12c22005e7cc4868ab30ed6e36.png",
+          "issues_url": "https://github.com/Darkhax-Minecraft/Game-Stages/issues",
+          "source_url": "https://github.com/Darkhax-Minecraft/Game-Stages",
+          "wiki_url": "https://github.com/Darkhax-Minecraft/Game-Stages/wiki",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "KTIYBB6X",
+          "project_id": "iAlZk5aS",
+          "author_id": "TiqUUK2E",
+          "name": "GameStages-Forge-1.20.1-15.0.1",
+          "version_number": "15.0.1",
+          "changelog": "- Port tp MC 1.20.1 [(9119041)](https://github.com/Darkhax-Minecraft/Game-Stages/commit/9119041)\n\nThis project is made possible by [Patreon](https://www.patreon.com/Darkhax?gamestages) support from players like you. Thank you!\n\n- Spencer Gilbert\n- Pongo Sapiens\n- Charles Bernal\n- noobanidus\n- Darkosto\n- Borealis German\n",
+          "date_published": "2023-07-16T23:56:13.161022Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "92b0f89b0190ea9d2501fe5bdc68b60344389ad5c5b29a09a1e142bd9d5b18845b8fdccd9150549e1b8f05c55e62e64e1dc289f66cd1350e3b0435f5e0a148c8",
+                "sha1": "f261ef0f241a2f1a50602437bca25f3d591fcd25"
+              },
+              "url": "https://cdn.modrinth.com/data/iAlZk5aS/versions/KTIYBB6X/GameStages-Forge-1.20.1-15.0.1.jar",
+              "filename": "GameStages-Forge-1.20.1-15.0.1.jar",
+              "primary": true,
+              "size": 65116
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Ore Stages Reborn",
+        "version": "Ore Stages Reborn 1.20.1-V0.1",
+        "optional": true,
+        "file": "orestages-1.20.1-V0.1.jar",
+        "type": "mods",
+        "description": "Allows blocks like ores to be hidden and staged with Game Stages",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 901507,
+        "curseForgeFileId": 5074982,
+        "curseForgeProject": {
+          "id": 901507,
+          "name": "Ore Stages Reborn",
+          "authors": [
+            {
+              "id": 102743257,
+              "name": "Sixik",
+              "url": "https://www.curseforge.com/members/sixik"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Allows blocks like ores to be hidden and staged with Game Stages",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "CraftTweaker",
+              "slug": "crafttweaker",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/crafttweaker",
+              "dateModified": "2023-06-16T13:16:03.86Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 4773,
+              "iconUrl": "https://media.forgecdn.net/avatars/177/676/636772941470587416.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 4773,
+          "classId": 6,
+          "slug": "ore-stages-reborn",
+          "isFeatured": false,
+          "dateModified": "2024-02-18T15:19:18.62Z",
+          "dateCreated": "2023-08-11T09:46:55.097Z",
+          "dateReleased": "2024-02-02T16:20:48.937Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ore-stages-reborn",
+            "wikiUrl": "https://discord.gg/uqPyFAnwFe",
+            "issuesUrl": ""
+          },
+          "logo": {
+            "id": 863881,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/863/881/256/256/638273440151162725.png",
+            "title": "638273440151162725.png",
+            "url": "https://media.forgecdn.net/avatars/863/881/638273440151162725.png",
+            "modId": 901507
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5076392
+        },
+        "curseForgeFile": {
+          "id": 5074982,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "orestages-1.20.1-V0.1.jar",
+          "fileName": "orestages-1.20.1-V0.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-02-01T21:56:38.157Z",
+          "fileLength": 27227,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3960866912,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1547169016,
+              "name": "net"
+            },
+            {
+              "fingerprint": 636369781,
+              "name": "orestages.mixins.json"
+            },
+            {
+              "fingerprint": 2954737403,
+              "name": "orestages.refmap.json"
+            },
+            {
+              "fingerprint": 1065922701,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "89ba94df656abff5dbd82317277e0781c6cb748e",
+              "algo": 1
+            },
+            {
+              "value": "87ccf7e8c10fbcecca0e3e02930338bf",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2613124529,
+          "modId": 901507
+        },
+        "modrinthProject": {
+          "id": "AhNG1MDF",
+          "slug": "ore-stages-reborn",
+          "project_type": "mod",
+          "team": "kfqc76RL",
+          "title": "Ore Stages Reborn",
+          "description": "Allows blocks like ores to be hidden and staged with Game Stages",
+          "body": "Ore Stages Reborn\n\n \n\nDescription\n\nThis is a port of the original mod, due to the fact that the developers of the original mod did not make a port, and I needed it so much\n\n \n\nOriginal mod -> https://modrinth.com/mod/ore-stages\n\nMy discord - [link](https://discord.gg/uqPyFAnwFe)\n\n \n\nExamples\n```\nimport mods.orestages.OreStages;\n\nOreStages.addOreStage(\"test\", <blockstate:minecraft:grass_block:snowy=false>);\n\nOreStages.addOreStage(\"test\", <blockstate:minecraft:grass_block:snowy=false>, <blockstate:minecraft:diamond_block>);\n```\n\n \n\nMethods\n```\nimport mods.orestages.OreStages;\n```\n```\nOreStages.addOreStage(String stage, BlockState block)\n```\n```\nOreStages.addOreStage(String stage, BlockState blockState, BlockState replaceBlock)\n```\n```\nOreStages.addOreStage(String stage, BlockState block, boolean explosion)\n```\n```\nOreStages.addOreStage(String stage, BlockState block, BlockState replaceBlock, boolean explosion)\n```",
+          "published": "2023-10-06T17:45:04.506079Z",
+          "updated": "2024-02-02T10:23:35.371266Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-2.1-only",
+            "name": "GNU Lesser General Public License v2.1 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "utility",
+            "worldgen"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/AhNG1MDF/15c67727af556ac3cee400f8e5a70aad50ab2382.png",
+          "source_url": "https://github.com/SagaDeoMissTeam/Ore-Stages-Reborn",
+          "wiki_url": "https://discord.com/invite/uqPyFAnwFe",
+          "discord_url": "https://discord.com/invite/uqPyFAnwFe",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/Wobblecraft"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "1yQH2O77",
+          "project_id": "AhNG1MDF",
+          "author_id": "dG1uyxeT",
+          "name": "Ore Stages Reborn 1.20.1-V0.1",
+          "version_number": "1.20.1-V0.1",
+          "changelog": "",
+          "date_published": "2024-02-02T08:57:50.390467Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "89ba94df656abff5dbd82317277e0781c6cb748e",
+                "sha512": "3db7cb7e01bf0fe50c9a9af39efdd233a90887754b653a35c36091eca2e8947d0518e9e528e557bec126cca1bb04d591513145bd2ea6ed7501f7bdf6bca27994"
+              },
+              "url": "https://cdn.modrinth.com/data/AhNG1MDF/versions/1yQH2O77/orestages-1.20.1-V0.1.jar",
+              "filename": "orestages-1.20.1-V0.1.jar",
+              "primary": true,
+              "size": 27227
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "Xg35A4rS",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "iAlZk5aS",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "breaking_tools_drops_items-1.0.0-all.jar",
         "version": "Unknown",
         "optional": true,
-        "file": "breaking_tools_drops_items-1.0.0.jar",
+        "file": "breaking_tools_drops_items-1.0.0-all.jar",
         "type": "mods",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false
+      },
+      {
+        "name": "Bookshelf",
+        "version": "Bookshelf-Forge-1.20.1-20.1.10",
+        "optional": true,
+        "file": "Bookshelf-Forge-1.20.1-20.1.10.jar",
+        "type": "mods",
+        "description": "An open source library for other mods!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 228525,
+        "curseForgeFileId": 5250293,
+        "curseForgeProject": {
+          "id": 228525,
+          "name": "Bookshelf",
+          "authors": [
+            {
+              "id": 6968547,
+              "name": "DarkhaxDev",
+              "url": "https://www.curseforge.com/members/darkhaxdev"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An open source library for other mods!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "bookshelf",
+          "isFeatured": false,
+          "dateModified": "2024-04-10T11:02:45.967Z",
+          "dateCreated": "2015-03-12T02:52:59.353Z",
+          "dateReleased": "2024-04-10T10:59:24.153Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Darkhax-Minecraft/Bookshelf/issues",
+            "sourceUrl": "https://github.com/Darkhax-Minecraft/Bookshelf"
+          },
+          "logo": {
+            "id": 981432,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/981/432/256/256/638488256947873195.png",
+            "title": "638488256947873195.png",
+            "url": "https://media.forgecdn.net/avatars/981/432/638488256947873195.png",
+            "modId": 228525
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 356665,
+              "description": "This is a debug command added by Bookshelf. You can use it to export game data of the held item in many different formats. For example the ingredient option will give you a JSON string that can be used in datapacks for things like recipe inputs.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/356/665/310/172/hand_command.png",
+              "title": "Command: /bookshelf hand",
+              "url": "https://media.forgecdn.net/attachments/356/665/hand_command.png",
+              "modId": 228525
+            }
+          ],
+          "mainFileId": 5251136
+        },
+        "curseForgeFile": {
+          "id": 5250293,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Bookshelf-Forge-1.20.1-20.1.10.jar",
+          "fileName": "Bookshelf-Forge-1.20.1-20.1.10.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-04-09T23:44:38.793Z",
+          "fileLength": 337327,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3189897860,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1656983946,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1302314027,
+              "name": "bookshelf.common.mixins.json"
+            },
+            {
+              "fingerprint": 2980735859,
+              "name": "bookshelf.forge.mixins.json"
+            },
+            {
+              "fingerprint": 596676979,
+              "name": "bookshelf.refmap.json"
+            },
+            {
+              "fingerprint": 475246396,
+              "name": "data"
+            },
+            {
+              "fingerprint": 777571610,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 2054538901,
+              "name": "net"
+            },
+            {
+              "fingerprint": 2432341171,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6f9ac2d30eb64781ddd47ddf0b2ea84c32501e03",
+              "algo": 1
+            },
+            {
+              "value": "da9460218401d7a259839fff7765abeb",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 3803476288,
+          "modId": 228525
+        },
+        "modrinthProject": {
+          "id": "uy4Cnpcm",
+          "slug": "bookshelf-lib",
+          "project_type": "mod",
+          "team": "qdYl5sw1",
+          "title": "Bookshelf",
+          "description": "An open source library for other mods!",
+          "body": "<p>Bookshelf is a collection of code, frameworks, utilities, and other resources. Many mods utilize Bookshelf's code base to power their own mods.</p>\n\n<h3>Why use a library mod?</h3>\n<p>Library mods such as Bookshelf allow seemingly unrelated mods to share parts of the same code base. This reduces the amount of time and effort required to develop certain mods and features. The Library's code base is also tested in a wider range of circumstances and communities which can lead to less bugs and better performance in mods.</p>\n\n<h3>Features for Players</h3>\n<p>While this mod is primarily for mod authors, there are a few useful features for Players.</p>\n<ul>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Commands\" rel=\"nofollow\">Debug commands</a> like /bookshelf hand to get item IDs.</li>\n<li>Many new <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs\" rel=\"nofollow\">datapack features</a> like crafting recipes that damage items with durability rather than consuming them.</li>\n</ul>\n\n<h3>Features for Modders</h3>\n<ul>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/blob/1.16.5/src/main/java/net/darkhax/bookshelf/serialization/Serializers.java\" rel=\"nofollow\">Serialization for JSON/Network/NBT formats.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/tree/1.16.5/src/main/java/net/darkhax/bookshelf/util\" rel=\"nofollow\">Utility Functions.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/tree/1.16.5/src/main/java/net/darkhax/bookshelf/registry\" rel=\"nofollow\">Registry manager, including non-forge registry types, debugging, and statistics.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Commands\" rel=\"nofollow\">Debug commands.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#recipe-types\" rel=\"nofollow\">New recipe types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#ingredients\" rel=\"nofollow\">New ingredient types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#loot-conditions\" rel=\"nofollow\">New loot condition types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#global-loot-modifiers\" rel=\"nofollow\">New loot modifier types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#item-predicates\" rel=\"nofollow\">New item predicates.</a></li>\n<li>Check <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf\" rel=\"nofollow\">GitHub</a> and the <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki\" rel=\"nofollow\">Wiki</a> for more!</li>\n</ul>\n\n<p><strong>Like the mod and want to support me?</strong></p>\n<ul>\n<li>Follow me on <a href=\"https://twitter.com/DarkhaxDev\" rel=\"nofollow\">Twitter</a></li>\n<li>Join my <a href=\"https://discord.darkhax.net/\" rel=\"nofollow\">Discord</a></li>\n<li>Check out my <a href=\"https://darkhax.net/\" rel=\"nofollow\">website</a></li>\n</ul>\n\n[![Nodecraft sponsor banner](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)\n\n**This project is sponsored by Nodecraft. Use code [DARKHAX](https://nodecraft.com/r/darkhax) for 30% off your first month of service!**",
+          "published": "2023-06-07T05:15:26.501095Z",
+          "updated": "2024-04-10T10:59:27.054160Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-2.1-only",
+            "name": "GNU Lesser General Public License v2.1 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uy4Cnpcm/002e73d916fb63c9c85e212ac47fde4ef9c4a65f.png",
+          "issues_url": "https://github.com/Darkhax-Minecraft/Bookshelf/issues",
+          "source_url": "https://github.com/Darkhax-Minecraft/Bookshelf",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/uy4Cnpcm/images/46dee24e9da4addbfb5dd2d082a6b2b86832e2e2.png",
+              "featured": false,
+              "title": "Command: /bookshelf hand",
+              "description": "This is a debug command added by Bookshelf. You can use it to export game data of the held item in many different formats. For example the ingredient option will give you a JSON string that can be used in datapacks for things like recipe inputs.",
+              "created": "2023-06-07T05:15:12.382551Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "zozOd4AM",
+          "project_id": "uy4Cnpcm",
+          "author_id": "TiqUUK2E",
+          "name": "Bookshelf-Forge-1.20.1-20.1.10",
+          "version_number": "20.1.10",
+          "changelog": "No changelog was specified.",
+          "date_published": "2024-04-09T23:44:47.786834Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "6f9ac2d30eb64781ddd47ddf0b2ea84c32501e03",
+                "sha512": "29158563b4619ae97e876e132d4b5feb728df8b12af454aad3b0c4b996ffd113cf0995f720400d877df08d469466742c28ba27e6275abb889f1a2f121205bde0"
+              },
+              "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/zozOd4AM/Bookshelf-Forge-1.20.1-20.1.10.jar",
+              "filename": "Bookshelf-Forge-1.20.1-20.1.10.jar",
+              "primary": true,
+              "size": 337327
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1717214625738,
-    "numPlays": 82
+    "lastPlayed": 1717298196739,
+    "numPlays": 91
   },
   "id": "1.20.1",
   "complianceLevel": 1,
